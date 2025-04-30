@@ -48,9 +48,9 @@ All input data are provided, and every step from data loading to final figure/ta
 
    The rjags package requires that you have the JAGS library installed on your system. Install it from:
 
-   Windows: Download installer from [JAGS official site](https://sourceforge.net/projects/mcmc-jags/files/)
-   macOS: brew install jags
-   Linux: sudo apt-get install jags
+   - **Windows**: Download installer from [JAGS official site](https://sourceforge.net/projects/mcmc-jags/files/)
+   - **macOS**: `brew install jags`
+   - **Linux**: `sudo apt-get install jags`
    Once JAGS is installed, install the R packages:
 
    ```r
