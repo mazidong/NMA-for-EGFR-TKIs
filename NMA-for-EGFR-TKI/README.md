@@ -34,6 +34,7 @@ All input data are provided, and every step from data loading to final figure/ta
 ## How to Reproduce the Analysis
 
 1. **Install required R packages**:
+
    ```r
    install.packages(c("openxlsx", "stringr", "dplyr", "tidyr", "readr", "netmeta", "readxl",
       "meta", "forestploter", "grid", "ggsci", "ggplot2", "igraph", "GGally", "tidyverse"))
@@ -41,7 +42,8 @@ All input data are provided, and every step from data loading to final figure/ta
    if (!requireNamespace("BiocManager", quietly = TRUE))
       install.packages("BiocManager")
    BiocManager::install(c("ComplexHeatmap", "circlize", "GetoptLong"))
-  
+  ```
+
 2. **JAGS Library (Required for `rjags`)**:
 
   The rjags package requires that you have the JAGS library installed on your system. Install it from:
@@ -50,13 +52,34 @@ All input data are provided, and every step from data loading to final figure/ta
   macOS: brew install jags
   Linux: sudo apt-get install jags
   Once JAGS is installed, install the R packages:
+
    ```r
    install.packages(c("rjags", "gemtc"))
-
+   ```
 
 3. **Set working directory to the project root**:
 
-  It is necessary to replace the main output path in each code file with your own path (your_path_to_project). Each file contains replacement code that is similar to the following:
+  It is necessary to replace the main output path in each code file with your actual local path to the project directory (your_path_to_project). 
+
+  For example, if your local path is:  
+
+   ```bash
+   /Users/yourname/projects/NMA-for-EGFR-TKIs
+   ```  
+
+  Then the following line:
+
+   ```r
+   source("/your_path_to_project/NMA-for-EGFR-TKI/scripts/1. Network-meta-analysis.r")
+   ```
+
+   should be updated to:
+
+   ```r
+   source("/Users/yourname/projects/NMA-for-EGFR-TKIs/NMA-for-EGFR-TKI/scripts/1. Network-meta-analysis.r")
+   ```
+
+   In each script, you will also find similar path definitions that need to be updated, such as:
 
    ```r
    main_output_dir <- "/your_path_to_project/NMA-for-EGFR-TKI/outcomes/" # Change to your main output directory
@@ -64,9 +87,13 @@ All input data are provided, and every step from data loading to final figure/ta
    setwd(main_output_dir)
 
    file_path <- "/your_path_to_project/NMA-for-EGFR-TKI/input/" # Change to your data folder path
+   ```
+   Make sure to **replace all occurrences** of `/your_path_to_project/` with your actual path before running the scripts.
 
 4. **Run the main script**:
 
+   Note: None of the scripts will run correctly unless you first replace all instances of /your_path_to_project/ with your actual local path.
+   
    ```r
    source("/your_path_to_project/NMA-for-EGFR-TKI/scripts/1. Network-meta-analysis.r")
    source("/your_path_to_project/NMA-for-EGFR-TKI/scripts/2. Forest-plot.r")
@@ -78,7 +105,7 @@ All input data are provided, and every step from data loading to final figure/ta
    source("/your_path_to_project/NMA-for-EGFR-TKI/scripts/8. Baseline_distribution.r")
    source("/your_path_to_project/NMA-for-EGFR-TKI/scripts/9. Bayesian-network-regression-analysis.r")
    source("/your_path_to_project/NMA-for-EGFR-TKI/scripts/10. Network meta-analysis for efficacy analysis.r")
-
+   ```
 ---
 
 ## Notes
