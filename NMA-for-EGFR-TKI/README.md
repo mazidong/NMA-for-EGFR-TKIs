@@ -59,15 +59,15 @@ All input data are provided, and every step from data loading to final figure/ta
 
 3. **Set working directory to the project root**:
 
-  It is necessary to replace the main output path in each code file with your actual local path to the project directory (your_path_to_project). 
+   It is necessary to replace the main output path in each code file with your actual local path to the project directory (your_path_to_project). 
 
-  For example, if your local path is:  
+   For example, if your local path is:  
 
    ```bash
    /Users/yourname/projects/NMA-for-EGFR-TKIs
    ```  
 
-  Then the following line:
+   Then the following line:
 
    ```r
    source("/your_path_to_project/NMA-for-EGFR-TKI/scripts/1. Network-meta-analysis.r")
