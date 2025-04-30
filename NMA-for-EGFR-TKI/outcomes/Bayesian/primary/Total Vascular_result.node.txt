@@ -1,0 +1,85 @@
+[1] "Total Vascular[2025-04-25 11:07:25]: mtc.nodesplit"
+Node-splitting analysis of inconsistency
+========================================
+
+   comparison                      p.value  CrI                 
+1  d.Afatinib.chemo                0.486400                     
+2  -> direct                                0.88 (-0.51, 2.3)   
+3  -> indirect                              0.24 (-0.94, 1.5)   
+4  -> network                               0.51 (-0.38, 1.4)   
+5  d.Afatinib.Erlotinib            0.976675                     
+6  -> direct                                -0.22 (-1.8, 1.3)   
+7  -> indirect                              -0.25 (-1.4, 0.86)  
+8  -> network                               -0.23 (-1.1, 0.66)  
+9  d.Afatinib.Gefitinib            0.736225                     
+10 -> direct                                -0.12 (-1.8, 1.6)   
+11 -> indirect                              -0.46 (-1.7, 0.69)  
+12 -> network                               -0.35 (-1.3, 0.60)  
+13 d.Afatinib.Placebo              0.192775                     
+14 -> direct                                -1.5 (-3.8, 0.37)   
+15 -> indirect                              -0.044 (-1.2, 1.1)  
+16 -> network                               -0.40 (-1.4, 0.55)  
+17 d.antiangio.Erlotinib           0.322425                     
+18 -> direct                                -1.7 (-2.8, -0.64)  
+19 -> indirect                              -3.1 (-6.7, -0.63)  
+20 -> network                               -1.9 (-2.9, -1.0)   
+21 d.antiangio.Erlotinib_antiangio 0.587350                     
+22 -> direct                                -0.58 (-2.2, 1.1)   
+23 -> indirect                              -0.015 (-1.4, 1.3)  
+24 -> network                               -0.28 (-1.3, 0.68)  
+25 d.antiangio.Gefitinib           0.322850                     
+26 -> direct                                -3.2 (-6.8, -0.81)  
+27 -> indirect                              -1.8 (-3.1, -0.51)  
+28 -> network                               -2.0 (-3.2, -0.96)  
+29 d.chemo.Erlotinib               0.154850                     
+30 -> direct                                -0.42 (-1.3, 0.41)  
+31 -> indirect                              -1.4 (-2.7, -0.30)  
+32 -> network                               -0.74 (-1.4, -0.091)
+33 d.chemo.Erlotinib_chemo         0.838400                     
+34 -> direct                                -0.91 (-4.6, 2.0)   
+35 -> indirect                              -0.57 (-2.2, 0.99)  
+36 -> network                               -0.55 (-2.0, 0.84)  
+37 d.chemo.Gefitinib               0.137700                     
+38 -> direct                                -1.9 (-4.1, -0.31)  
+39 -> indirect                              -0.49 (-1.5, 0.50)  
+40 -> network                               -0.86 (-1.7, -0.051)
+41 d.chemo.Osimertinib             0.805050                     
+42 -> direct                                -0.67 (-2.2, 0.87)  
+43 -> indirect                              -0.93 (-2.4, 0.53)  
+44 -> network                               -0.80 (-1.9, 0.23)  
+45 d.Dacomitinib.Erlotinib         0.863825                     
+46 -> direct                                0.20 (-1.1, 1.6)    
+47 -> indirect                              0.031 (-1.3, 1.4)   
+48 -> network                               0.11 (-0.82, 1.0)   
+49 d.Dacomitinib.Gefitinib         0.956600                     
+50 -> direct                                0.021 (-1.5, 1.5)   
+51 -> indirect                              -0.036 (-1.4, 1.3)  
+52 -> network                               -0.013 (-1.0, 0.96) 
+53 d.Dacomitinib.Placebo           0.805775                     
+54 -> direct                                -0.24 (-2.0, 1.5)   
+55 -> indirect                              0.019 (-1.2, 1.3)   
+56 -> network                               -0.068 (-1.1, 0.92) 
+57 d.Erlotinib.Gefitinib           0.504650                     
+58 -> direct                                0.44 (-1.4, 2.4)    
+59 -> indirect                              -0.24 (-1.1, 0.61)  
+60 -> network                               -0.12 (-0.91, 0.64) 
+61 d.Erlotinib.Placebo             0.098150                     
+62 -> direct                                0.36 (-0.62, 1.3)   
+63 -> indirect                              -0.85 (-2.0, 0.22)  
+64 -> network                               -0.18 (-0.92, 0.54) 
+65 d.Gefitinib.Lazertinib          0.873300                     
+66 -> direct                                0.27 (-1.2, 1.8)    
+67 -> indirect                              0.47 (-1.4, 2.4)    
+68 -> network                               0.35 (-0.81, 1.5)   
+69 d.Gefitinib.Placebo             0.325500                     
+70 -> direct                                -0.78 (-2.6, 0.86)  
+71 -> indirect                              0.17 (-0.83, 1.2)   
+72 -> network                               -0.056 (-0.92, 0.78)
+73 d.Lazertinib.Osimertinib        0.882400                     
+74 -> direct                                -0.34 (-1.8, 1.1)   
+75 -> indirect                              -0.16 (-2.1, 1.9)   
+76 -> network                               -0.28 (-1.4, 0.86)  
+77 d.Osimertinib.Placebo           0.912475                     
+78 -> direct                                -0.075 (-1.6, 1.4)  
+79 -> indirect                              -0.19 (-1.7, 1.3)   
+80 -> network                               -0.12 (-1.2, 0.90)  

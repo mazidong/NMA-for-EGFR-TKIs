@@ -1,0 +1,142 @@
+
+Results on the Log Odds Ratio scale
+
+Iterations = 100010:3e+05
+Thinning interval = 10 
+Number of chains = 4 
+Sample size per chain = 20000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                                         Mean      SD Naive SE Time-series SE
+d.Afatinib.Afatinib_HMGCRi            0.68775  2.3328 0.008248       0.074970
+d.chemo.Afatinib                     -0.74315  2.4937 0.008816       0.098182
+d.chemo.Erlotinib                     0.06120  0.5846 0.002067       0.008652
+d.chemo.Gefitinib                    -1.10645  2.7274 0.009643       0.102772
+d.chemo.Osimertinib                   2.59233  4.7529 0.016804       0.202055
+d.Erlotinib.antiangio                 3.29904  2.3970 0.008475       0.088553
+d.Erlotinib.Dacomitinib              -0.76243  0.7995 0.002827       0.008748
+d.Erlotinib.Erlotinib_antiangio      -0.14542  0.3292 0.001164       0.001885
+d.Erlotinib.Erlotinib_COX2i         -31.67005 24.0719 0.085107       2.142481
+d.Erlotinib.Erlotinib_METi            0.02456  2.6628 0.009414       0.067464
+d.Erlotinib.Placebo                  -0.18874  0.6204 0.002194       0.005505
+d.Gefitinib.Almonertinib             -0.03606  2.4159 0.008541       0.111103
+d.Gefitinib.Furmonertinib             0.48181  4.0304 0.014250       0.355806
+d.Gefitinib.Gefitinib_chemo           1.84355  5.6069 0.019824       0.279293
+d.Gefitinib.Gefitinib_PARPi          23.55256 17.9573 0.063489       1.415517
+d.Osimertinib.Osimertinib_antiangio   1.04446  0.5687 0.002011       0.002958
+d.Osimertinib.Osimertinib_chemo      27.31675 19.6469 0.069462       2.104102
+sd.d                                  0.48582  0.3651 0.001291       0.005345
+beta[1]                              -2.13874  4.5659 0.016143       0.100238
+beta[2]                               0.43149 16.8422 0.059546       0.584286
+beta[3]                              -0.04156 11.8168 0.041779       0.525819
+beta[4]                               0.18655 24.1423 0.085356       1.234034
+beta[5]                              -3.09367  6.2125 0.021965       0.279155
+beta[6]                              -0.38506  1.2564 0.004442       0.015645
+beta[7]                              -0.09063  0.7322 0.002589       0.006098
+beta[8]                              -0.05980  1.1451 0.004049       0.006748
+beta[9]                               5.46953 40.6063 0.143565       1.363565
+beta[10]                              0.32447  3.9066 0.013812       0.100749
+beta[11]                              2.62835 22.7598 0.080468       2.093550
+beta[12]                              0.71535  2.1182 0.007489       0.070396
+beta[13]                             -0.91122  7.1655 0.025334       0.348483
+beta[14]                              1.44597 34.9738 0.123651       0.707610
+beta[15]                             -0.57589  2.8716 0.010153       0.050821
+beta[16]                              0.76142  2.8873 0.010208       0.047378
+beta[17]                              0.71383 24.2223 0.085639       0.901297
+
+2. Quantiles for each variable:
+
+                                          2.5%      25%        50%       75%   97.5%
+d.Afatinib.Afatinib_HMGCRi           -3.198295  -0.2584   0.603942   1.54909  5.1991
+d.chemo.Afatinib                     -5.235588  -2.1749  -0.889492   0.49667  4.9349
+d.chemo.Erlotinib                    -0.994156  -0.2968   0.012818   0.37123  1.3726
+d.chemo.Gefitinib                    -6.300598  -2.6180  -1.170629   0.29397  4.7983
+d.chemo.Osimertinib                  -4.597402  -0.3337   1.827710   4.60353 14.6829
+d.Erlotinib.antiangio                 0.005364   2.1745   3.137824   4.25412  7.8446
+d.Erlotinib.Dacomitinib              -2.367288  -1.2655  -0.755954  -0.25246  0.8062
+d.Erlotinib.Erlotinib_antiangio      -0.854853  -0.3282  -0.126519   0.05668  0.4600
+d.Erlotinib.Erlotinib_COX2i         -87.075352 -46.4356 -27.519042 -13.44707  1.8556
+d.Erlotinib.Erlotinib_METi           -5.299190  -1.4599  -0.061388   1.39970  5.9950
+d.Erlotinib.Placebo                  -1.448507  -0.5706  -0.179024   0.20601  1.0107
+d.Gefitinib.Almonertinib             -4.704580  -0.8259  -0.036744   0.78582  4.9055
+d.Gefitinib.Furmonertinib            -4.410187  -0.7412   0.051530   0.91119  9.8009
+d.Gefitinib.Gefitinib_chemo          -8.453642  -0.7816   1.509958   3.95310 15.0043
+d.Gefitinib.Gefitinib_PARPi           0.123701   9.2793  19.683882  34.71981 66.4458
+d.Osimertinib.Osimertinib_antiangio  -0.089518   0.7073   1.040937   1.37667  2.1957
+d.Osimertinib.Osimertinib_chemo       2.021057  12.1620  23.412563  38.91758 74.4500
+sd.d                                  0.021136   0.2047   0.417176   0.68535  1.3627
+beta[1]                             -13.844149  -3.8268  -1.291908   0.54164  4.4612
+beta[2]                             -28.131843  -2.7884   0.037391   2.95490 33.7240
+beta[3]                             -23.170623  -2.7256   0.016300   2.79892 24.5314
+beta[4]                             -29.705543  -2.8769  -0.014852   2.83044 34.3155
+beta[5]                             -20.069002  -5.0551  -1.646742   0.48653  5.1563
+beta[6]                              -2.923456  -1.1667  -0.371994   0.41372  2.0719
+beta[7]                              -1.552384  -0.5530  -0.087671   0.37521  1.3491
+beta[8]                              -2.345265  -0.7845  -0.054925   0.66911  2.1945
+beta[9]                             -19.339587  -2.3697   0.315025   3.47447 61.6409
+beta[10]                             -7.629095  -1.7376   0.174000   2.22043  9.2612
+beta[11]                            -24.106286  -2.6717   0.107252   3.15368 55.9865
+beta[12]                             -3.547343  -0.4214   0.707169   1.86068  4.8422
+beta[13]                            -18.642951  -3.0318  -0.343967   1.99251 12.2219
+beta[14]                            -31.543835  -2.8434   0.035582   2.97491 39.6671
+beta[15]                             -6.325579  -2.1458  -0.579567   0.92997  5.3874
+beta[16]                             -4.753213  -0.8384   0.642484   2.23155  7.0188
+beta[17]                            -30.477829  -2.8741  -0.001043   2.86731 35.5464
+
+-- Model fit (residual deviance):
+
+     Dbar        pD       DIC 
+ 66.64046  57.19382 123.83428 
+
+67 data points, ratio 0.9946, I^2 = 1%
+
+-- Regression settings:
+
+Regression on "median_follow_up", unrelated coefficients, "Placebo" as control
+Input standardized: x' = (median_follow_up - 25.38485) / 25.19877
+Estimates at the centering value: median_follow_up = 25.38485
+
+Potential scale reduction factors:
+
+                                    Point est. Upper C.I.
+d.Afatinib.Afatinib_HMGCRi                1.03       1.04
+d.chemo.Afatinib                          1.01       1.02
+d.chemo.Erlotinib                         1.00       1.00
+d.chemo.Gefitinib                         1.01       1.02
+d.chemo.Osimertinib                       1.01       1.02
+d.Erlotinib.antiangio                     1.04       1.06
+d.Erlotinib.Dacomitinib                   1.00       1.00
+d.Erlotinib.Erlotinib_antiangio           1.00       1.00
+d.Erlotinib.Erlotinib_COX2i               1.04       1.10
+d.Erlotinib.Erlotinib_METi                1.00       1.01
+d.Erlotinib.Placebo                       1.00       1.00
+d.Gefitinib.Almonertinib                  1.04       1.06
+d.Gefitinib.Furmonertinib                 1.18       1.38
+d.Gefitinib.Gefitinib_chemo               1.02       1.04
+d.Gefitinib.Gefitinib_PARPi               1.13       1.34
+d.Osimertinib.Osimertinib_antiangio       1.00       1.00
+d.Osimertinib.Osimertinib_chemo           1.06       1.15
+sd.d                                      1.00       1.00
+beta[1]                                   1.01       1.01
+beta[2]                                   1.04       1.05
+beta[3]                                   1.04       1.07
+beta[4]                                   1.07       1.10
+beta[5]                                   1.02       1.02
+beta[6]                                   1.00       1.00
+beta[7]                                   1.00       1.00
+beta[8]                                   1.00       1.00
+beta[9]                                   1.16       1.20
+beta[10]                                  1.00       1.01
+beta[11]                                  1.19       1.41
+beta[12]                                  1.01       1.02
+beta[13]                                  1.03       1.05
+beta[14]                                  1.04       1.05
+beta[15]                                  1.00       1.01
+beta[16]                                  1.00       1.01
+beta[17]                                  1.04       1.05
+
+Multivariate psrf
+
+1.11

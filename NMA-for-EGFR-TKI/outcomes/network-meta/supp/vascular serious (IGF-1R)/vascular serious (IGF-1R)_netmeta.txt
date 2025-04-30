@@ -1,0 +1,28 @@
+Number of studies: k = 12
+Number of pairwise comparisons: m = 12
+Number of observations: o = 6408
+Number of treatments: n = 9
+Number of designs: d = 8
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'Placebo'):
+                             OR            95%-CI     z p-value
+Afatinib                 3.1949 [0.8307; 12.2878]  1.69  0.0910
+Dacomitinib              1.1449 [0.4149;  3.1595]  0.26  0.7939
+Erlotinib                0.5734 [0.2937;  1.1195] -1.63  0.1032
+Erlotinib + Figitumumab  1.2792 [0.2466;  6.6345]  0.29  0.7694
+Erlotinib + Linsitinib   1.7547 [0.0659; 46.7016]  0.34  0.7370
+Erlotinib + Teprotumumab 2.5458 [0.1249; 51.8844]  0.61  0.5435
+Gefitinib                1.4793 [0.4623;  4.7333]  0.66  0.5094
+Osimertinib              1.0158 [0.3743;  2.7569]  0.03  0.9754
+Placebo                       .                 .     .       .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 79.2%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           2    4  0.7364
+Within designs  2    4  0.7364
+Between designs 0    0      --

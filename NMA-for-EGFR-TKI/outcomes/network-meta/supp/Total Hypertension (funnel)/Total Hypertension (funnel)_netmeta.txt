@@ -1,0 +1,41 @@
+Number of studies: k = 39
+Number of pairwise comparisons: m = 43
+Number of observations: o = 14660
+Number of treatments: n = 22
+Number of designs: d = 27
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'Placebo'):
+                                    OR            95%-CI     z  p-value
+Afatinib                        0.7105 [0.2124;  2.3764] -0.55   0.5790
+Afatinib + Cetuximab            0.4334 [0.1086;  1.7298] -1.18   0.2364
+Almonertinib                    1.2673 [0.3041;  5.2820]  0.33   0.7450
+Antiangiogenesis                6.1273 [2.8887; 12.9969]  4.72 < 0.0001
+Chemotherapy                    1.6647 [0.5580;  4.9660]  0.91   0.3608
+Dacomitinib                     0.8870 [0.2270;  3.4653] -0.17   0.8630
+Erlotinib                       0.7757 [0.4188;  1.4369] -0.81   0.4195
+Erlotinib + antiangiogenesis    4.7465 [2.3939;  9.4112]  4.46 < 0.0001
+Erlotinib + Autophagy inhibitor 0.4211 [0.1193;  1.4859] -1.34   0.1788
+Erlotinib + IGF-1R inhibitor    2.0394 [0.5768;  7.2106]  1.11   0.2687
+Erlotinib + MET inhibitor       2.3183 [0.0888; 60.4929]  0.51   0.6134
+Gefitinib                       1.0019 [0.3013;  3.3324]  0.00   0.9975
+Gefitinib + antiangiogenesis    9.8887 [2.6583; 36.7850]  3.42   0.0006
+Gefitinib + chemotherapy        1.0571 [0.2980;  3.7495]  0.09   0.9315
+Gefitinib/Erlotinib             0.4646 [0.1172;  1.8424] -1.09   0.2755
+Lazertinib                      0.8847 [0.2660;  2.9428] -0.20   0.8417
+Lazertinib + Amivantamab        0.7560 [0.2170;  2.6339] -0.44   0.6605
+Osimertinib                     0.6310 [0.2029;  1.9620] -0.80   0.4263
+Osimertinib + antiangiogenesis  4.0189 [1.0788; 14.9713]  2.07   0.0382
+Osimertinib + chemotherapy      0.7919 [0.2108;  2.9746] -0.35   0.7297
+Osimertinib + PD-L1 inhibitor   0.2776 [0.0086;  8.9607] -0.72   0.4697
+Placebo                              .                 .     .        .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 47.0%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           5.78   20  0.9992
+Within designs  3.01   12  0.9955
+Between designs 2.77    8  0.9479

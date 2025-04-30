@@ -1,0 +1,41 @@
+[1] "Total Arrhythmias (Gen)[2025-04-25 12:34:01]: mtc.anohe"
+Analysis of heterogeneity
+=========================
+
+Per-comparison I-squared:
+-------------------------
+
+                t1              t2   i2.pair  i2.cons  incons.p
+1        antiangio               I 66.246519 65.48271        NA
+2  chemo_antiangio             III        NA       NA        NA
+3            chemo               I  7.422573  0.00000 0.7294012
+4            chemo         I_chemo        NA  0.00000 0.9428621
+5            chemo              II        NA 42.98453 0.2309852
+6            chemo             III        NA  0.00000 0.5975960
+7            DHFRi               I        NA       NA        NA
+8                I     I_antiangio  0.000000  0.00000        NA
+9                I    I_Autophagyi        NA       NA        NA
+10               I         I_chemo  0.000000  0.00000        NA
+11               I         I_HER3i        NA       NA        NA
+12               I       I_IGF_1Ri 52.930890 53.25563        NA
+13               I          I_METi  0.000000  0.00000        NA
+14               I          I_MMPi        NA       NA        NA
+15               I              II 68.469662 55.36316 0.5469900
+16               I             III 37.749635 22.26215 0.9249639
+17               I         Placebo 53.413572 19.71274 0.5747755
+18               I     Rociletinib        NA       NA        NA
+19               I    Zorifertinib        NA       NA        NA
+20              II    II_Cetuximab        NA       NA        NA
+21              II       II_HMGCRi        NA       NA        NA
+22              II         Placebo 15.925281  0.00000 0.8414910
+23             III III_Amivantamab        NA       NA        NA
+24             III   III_antiangio  0.000000  0.00000        NA
+25             III       III_chemo 63.034577 60.86877        NA
+26             III      III_PD_L1i        NA       NA        NA
+27             III         Placebo  0.000000  0.00000 0.9847013
+
+Global I-squared:
+-------------------------
+
+   i2.pair  i2.cons
+1 28.92417 20.01156

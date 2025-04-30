@@ -1,0 +1,17 @@
+"","x"
+"Afatinib",0.5385
+"Almonertinib",0.6241
+"antiangio",0.6025
+"chemo",0.6817
+"Dacomitinib",0.2518
+"Erlotinib",0.1673
+"Erlotinib_antiangio",0.4397
+"Erlotinib_ERi",0.4695
+"Erlotinib_METi",0.2953
+"Gefitinib",0.4609
+"Gefitinib_antiangio",0.8268
+"Gefitinib_chemo",0.4624
+"Gefitinib_ERi",0.5148
+"Osimertinib",0.5441
+"Osimertinib_antiangio",0.8891
+"Placebo",0.2316

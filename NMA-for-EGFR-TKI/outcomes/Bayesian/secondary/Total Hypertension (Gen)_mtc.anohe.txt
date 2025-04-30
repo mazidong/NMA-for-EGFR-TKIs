@@ -1,0 +1,35 @@
+[1] "Total Hypertension (Gen)[2025-04-25 14:55:43]: mtc.anohe"
+Analysis of heterogeneity
+=========================
+
+Per-comparison I-squared:
+-------------------------
+
+          t1              t2  i2.pair  i2.cons  incons.p
+1  antiangio               I  0.00000  0.00000        NA
+2  Antiangio               I       NA       NA        NA
+3  antiangio     I_antiangio       NA  0.00000 0.6847019
+4      chemo               I 42.72829 22.58400 0.2929091
+5      chemo              II       NA  0.00000 0.5253585
+6      chemo             III       NA  0.00000 0.8567764
+7          I     I_antiangio 69.63581 69.06625        NA
+8          I    I_Autophagyi       NA       NA        NA
+9          I         I_chemo  0.00000  0.00000        NA
+10         I       I_IGF_1Ri       NA       NA        NA
+11         I          I_METi       NA       NA        NA
+12         I              II 52.81838 26.74375 0.3476907
+13         I             III  0.00000  0.00000 0.8774348
+14         I         Placebo 48.82519  0.00000 0.7054483
+15        II    II_Cetuximab       NA       NA        NA
+16        II         Placebo       NA 41.01410 0.2559359
+17       III III_Amivantamab       NA       NA        NA
+18       III   III_antiangio 38.09831 37.94472        NA
+19       III       III_chemo 54.06827 53.21069        NA
+20       III      III_PD_L1i       NA       NA        NA
+21       III         Placebo       NA  0.00000 0.9484380
+
+Global I-squared:
+-------------------------
+
+   i2.pair i2.cons
+1 55.88224 48.5384

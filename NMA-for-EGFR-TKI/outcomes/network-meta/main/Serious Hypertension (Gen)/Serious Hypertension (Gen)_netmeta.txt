@@ -1,0 +1,32 @@
+Number of studies: k = 33
+Number of pairwise comparisons: m = 35
+Number of observations: o = 12868
+Number of treatments: n = 13
+Number of designs: d = 15
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'Placebo'):
+                                                OR             95%-CI     z p-value
+1st-generation EGFR TKIs                    0.6694 [0.1075;   4.1689] -0.43  0.6671
+1st-generation EGFR TKIs + antiangiogenesis 4.4930 [0.6496;  31.0760]  1.52  0.1278
+1st-generation EGFR TKIs + chemotherapy     0.6604 [0.0724;   6.0223] -0.37  0.7130
+1st-generation EGFR TKIs + IGF-1R inhibitor 2.0221 [0.0387; 105.7489]  0.35  0.7273
+1st-generation EGFR TKIs + MET inhibitor    2.0004 [0.0383; 104.4617]  0.34  0.7312
+2nd-generation EGFR TKIs                    0.4207 [0.0395;   4.4769] -0.72  0.4730
+2nd-generation EGFR TKIs + Cetuximab        0.1419 [0.0020;   9.8397] -0.90  0.3666
+3rd-generation EGFR TKIs                    0.4482 [0.0565;   3.5536] -0.76  0.4475
+3rd-generation EGFR TKIs + antiangiogenesis 1.3046 [0.0986;  17.2664]  0.20  0.8401
+3rd-generation EGFR TKIs + chemotherapy     1.4616 [0.0231;  92.6148]  0.18  0.8577
+Antiangiogenesis                            8.6045 [0.8571;  86.3770]  1.83  0.0674
+Chemotherapy                                2.1092 [0.0400; 111.2528]  0.37  0.7122
+Placebo                                          .                  .     .       .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.5315; tau = 0.7290; I^2 = 40.5% [2.0%; 63.8%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           36.96   22  0.0239
+Within designs  27.89   18  0.0638
+Between designs  9.08    4  0.0592

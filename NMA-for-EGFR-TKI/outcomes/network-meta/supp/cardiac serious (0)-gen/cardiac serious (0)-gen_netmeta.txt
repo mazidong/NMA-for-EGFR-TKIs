@@ -1,0 +1,68 @@
+Number of studies: k = 60
+Number of pairwise comparisons: m = 62
+Number of observations: o = 24255
+Number of treatments: n = 22
+Number of designs: d = 26
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'Placebo'):
+                                                 OR             95%-CI     z p-value
+1st-generation EGFR TKIs                     1.0978 [0.6668;   1.8075]  0.37  0.7137
+1st-generation EGFR TKIs + antiangiogenesis  1.3692 [0.6796;   2.7587]  0.88  0.3793
+1st-generation EGFR TKIs + chemotherapy      1.7962 [0.6633;   4.8642]  1.15  0.2492
+1st-generation EGFR TKIs + COX2 inhibitor    0.3525 [0.0135;   9.1950] -0.63  0.5309
+1st-generation EGFR TKIs + HER3 inhibitor    2.8913 [0.5697;  14.6733]  1.28  0.2002
+1st-generation EGFR TKIs + IGF-1R inhibitor  1.5346 [0.5163;   4.5612]  0.77  0.4409
+1st-generation EGFR TKIs + MET inhibitor     0.9450 [0.4270;   2.0913] -0.14  0.8890
+1st-generation EGFR TKIs + MMP inhibitor    10.5914 [0.5369; 208.9277]  1.55  0.1209
+1st-generation EGFR TKIs + PARP inhibitor    3.3299 [0.1288;  86.0702]  0.72  0.4685
+2nd-generation EGFR TKIs                     0.9544 [0.5409;   1.6838] -0.16  0.8719
+2nd-generation EGFR TKIs + Cetuximab         0.9776 [0.0568;  16.8283] -0.02  0.9876
+2nd-generation EGFR TKIs + HMGCR inhibitor   0.2745 [0.0103;   7.3353] -0.77  0.4406
+3rd-generation EGFR TKIs                     1.8267 [1.0018;   3.3311]  1.97  0.0493
+3rd-generation EGFR TKIs + Amivantamab       2.2994 [0.8696;   6.0801]  1.68  0.0933
+3rd-generation EGFR TKIs + antiangiogenesis  9.6100 [1.4820;  62.3172]  2.37  0.0177
+3rd-generation EGFR TKIs + chemotherapy      4.4838 [1.3294;  15.1237]  2.42  0.0156
+Antiangiogenesis                             5.0068 [1.9501;  12.8543]  3.35  0.0008
+Chemotherapy                                 1.2716 [0.6340;   2.5504]  0.68  0.4987
+DHFR inhibitor                               0.8497 [0.1710;   4.2214] -0.20  0.8421
+Placebo                                           .                  .     .       .
+Rociletinib                                  1.7184 [0.2568;  11.4989]  0.56  0.5767
+Zorifertinib                                 2.9690 [0.7104;  12.4081]  1.49  0.1359
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'Placebo'):
+                                                 OR             95%-CI     z p-value
+1st-generation EGFR TKIs                     1.0978 [0.6668;   1.8075]  0.37  0.7137
+1st-generation EGFR TKIs + antiangiogenesis  1.3692 [0.6796;   2.7587]  0.88  0.3793
+1st-generation EGFR TKIs + chemotherapy      1.7962 [0.6633;   4.8642]  1.15  0.2492
+1st-generation EGFR TKIs + COX2 inhibitor    0.3525 [0.0135;   9.1950] -0.63  0.5309
+1st-generation EGFR TKIs + HER3 inhibitor    2.8913 [0.5697;  14.6733]  1.28  0.2002
+1st-generation EGFR TKIs + IGF-1R inhibitor  1.5346 [0.5163;   4.5612]  0.77  0.4409
+1st-generation EGFR TKIs + MET inhibitor     0.9450 [0.4270;   2.0913] -0.14  0.8890
+1st-generation EGFR TKIs + MMP inhibitor    10.5914 [0.5369; 208.9277]  1.55  0.1209
+1st-generation EGFR TKIs + PARP inhibitor    3.3299 [0.1288;  86.0702]  0.72  0.4685
+2nd-generation EGFR TKIs                     0.9544 [0.5409;   1.6838] -0.16  0.8719
+2nd-generation EGFR TKIs + Cetuximab         0.9776 [0.0568;  16.8283] -0.02  0.9876
+2nd-generation EGFR TKIs + HMGCR inhibitor   0.2745 [0.0103;   7.3353] -0.77  0.4406
+3rd-generation EGFR TKIs                     1.8267 [1.0018;   3.3311]  1.97  0.0493
+3rd-generation EGFR TKIs + Amivantamab       2.2994 [0.8696;   6.0801]  1.68  0.0933
+3rd-generation EGFR TKIs + antiangiogenesis  9.6100 [1.4820;  62.3172]  2.37  0.0177
+3rd-generation EGFR TKIs + chemotherapy      4.4838 [1.3294;  15.1237]  2.42  0.0156
+Antiangiogenesis                             5.0068 [1.9501;  12.8543]  3.35  0.0008
+Chemotherapy                                 1.2716 [0.6340;   2.5504]  0.68  0.4987
+DHFR inhibitor                               0.8497 [0.1710;   4.2214] -0.20  0.8421
+Placebo                                           .                  .     .       .
+Rociletinib                                  1.7184 [0.2568;  11.4989]  0.56  0.5767
+Zorifertinib                                 2.9690 [0.7104;  12.4081]  1.49  0.1359
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 35.8%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           26.37   40  0.9521
+Within designs  23.18   34  0.9194
+Between designs  3.19    6  0.7850

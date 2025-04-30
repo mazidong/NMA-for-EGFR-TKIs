@@ -1,0 +1,49 @@
+Number of studies: k = 76
+Number of pairwise comparisons: m = 87
+Number of observations: o = 26345
+Number of treatments: n = 30
+Number of designs: d = 38
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'Placebo'):
+                                     OR            95%-CI     z  p-value
+Afatinib                         1.1099 [0.6331;  1.9458]  0.36   0.7159
+Afatinib + Cetuximab             1.0537 [0.4516;  2.4587]  0.12   0.9037
+Almonertinib                     2.1399 [0.8738;  5.2405]  1.66   0.0960
+Antiangiogenesis                 4.1059 [2.3637;  7.1323]  5.01 < 0.0001
+Chemotherapy                     1.6907 [0.9957;  2.8706]  1.94   0.0519
+Dacomitinib                      0.9649 [0.5437;  1.7126] -0.12   0.9029
+DHFR inhibitor                   1.6425 [0.2025; 13.3192]  0.46   0.6422
+Erlotinib                        0.9364 [0.6224;  1.4089] -0.32   0.7527
+Erlotinib + antiangiogenesis     3.9018 [2.4498;  6.2146]  5.73 < 0.0001
+Erlotinib + Autophagy inhibitor  0.2471 [0.0814;  0.7503] -2.47   0.0136
+Erlotinib + chemotherapy         1.0744 [0.4674;  2.4694]  0.17   0.8659
+Erlotinib + ER inhibitor         2.3251 [0.8982;  6.0187]  1.74   0.0821
+Erlotinib + HER3 inhibitor       0.4632 [0.0958;  2.2395] -0.96   0.3384
+Erlotinib + HGF inhibitor        0.7094 [0.0550;  9.1478] -0.26   0.7924
+Erlotinib + IGF-1R inhibitor     2.6889 [1.2980;  5.5704]  2.66   0.0078
+Erlotinib + MET inhibitor        1.4471 [0.8166;  2.5643]  1.27   0.2056
+Erlotinib + MMP inhibitor        0.2011 [0.0453;  0.8926] -2.11   0.0349
+Gefitinib                        0.9768 [0.5825;  1.6380] -0.09   0.9291
+Gefitinib + antiangiogenesis    10.1986 [4.7684; 21.8126]  5.99 < 0.0001
+Gefitinib + chemotherapy         1.1575 [0.6019;  2.2258]  0.44   0.6611
+Gefitinib + ER inhibitor         3.6693 [1.5148;  8.8884]  2.88   0.0040
+Gefitinib/Erlotinib              0.5718 [0.2343;  1.3953] -1.23   0.2194
+Lazertinib                       1.2826 [0.6894;  2.3861]  0.79   0.4320
+Lazertinib + Amivantamab         5.6144 [2.9225; 10.7857]  5.18 < 0.0001
+Osimertinib                      0.9079 [0.5047;  1.6333] -0.32   0.7472
+Osimertinib + antiangiogenesis   6.2992 [2.7503; 14.4276]  4.35 < 0.0001
+Osimertinib + chemotherapy       1.3305 [0.5818;  3.0427]  0.68   0.4987
+Osimertinib + PD-L1 inhibitor    0.4906 [0.0569;  4.2293] -0.65   0.5171
+Placebo                               .                 .     .        .
+Rociletinib                      0.3121 [0.0120;  8.1017] -0.70   0.4834
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0098; tau = 0.0992; I^2 = 3.5% [0.0%; 28.6%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           53.89   52  0.4018
+Within designs  41.26   38  0.3302
+Between designs 12.64   14  0.5553

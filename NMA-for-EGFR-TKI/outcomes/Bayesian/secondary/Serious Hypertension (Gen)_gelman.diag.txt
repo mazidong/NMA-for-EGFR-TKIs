@@ -1,0 +1,21 @@
+[1] "Serious Hypertension (Gen)[2025-04-25 14:37:02]: gelman.diag"
+Potential scale reduction factors:
+
+                    Point est. Upper C.I.
+d.I.antiangio             1.00       1.00
+d.I.chemo                 1.01       1.01
+d.I.I_antiangio           1.00       1.00
+d.I.I_chemo               1.00       1.00
+d.I.I_IGF_1Ri             1.00       1.01
+d.I.I_METi                1.01       1.02
+d.I.II                    1.00       1.00
+d.I.III                   1.00       1.00
+d.I.Placebo               1.00       1.00
+d.II.II_Cetuximab         1.00       1.01
+d.III.III_antiangio       1.00       1.00
+d.III.III_chemo           1.01       1.02
+sd.d                      1.00       1.00
+
+Multivariate psrf
+
+1.01

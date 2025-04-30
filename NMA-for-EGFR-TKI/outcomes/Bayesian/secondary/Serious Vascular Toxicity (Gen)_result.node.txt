@@ -1,0 +1,41 @@
+[1] "Serious Vascular Toxicity (Gen)[2025-04-25 13:38:32]: mtc.nodesplit"
+Node-splitting analysis of inconsistency
+========================================
+
+   comparison              p.value  CrI                 
+1  d.antiangio.I_antiangio 0.366350                     
+2  -> direct                        -1.1 (-3.5, 0.99)   
+3  -> indirect                      0.051 (-1.5, 1.6)   
+4  -> network                       -0.48 (-1.8, 0.66)  
+5  d.chemo.I               0.072925                     
+6  -> direct                        -0.16 (-0.95, 0.63) 
+7  -> indirect                      -1.5 (-2.7, -0.26)  
+8  -> network                       -0.54 (-1.2, 0.14)  
+9  d.chemo.II              0.390500                     
+10 -> direct                        -0.89 (-2.7, 0.72)  
+11 -> indirect                      -0.073 (-1.1, 0.98) 
+12 -> network                       -0.30 (-1.1, 0.54)  
+13 d.chemo.III             0.146250                     
+14 -> direct                        -0.37 (-1.9, 1.2)   
+15 -> indirect                      0.98 (-0.041, 2.0)  
+16 -> network                       0.54 (-0.32, 1.5)   
+17 d.I.II                  0.403000                     
+18 -> direct                        0.062 (-0.72, 0.82) 
+19 -> indirect                      0.63 (-0.54, 1.8)   
+20 -> network                       0.24 (-0.41, 0.85)  
+21 d.I.III                 0.004250                     
+22 -> direct                        1.9 (1.0, 2.9)      
+23 -> indirect                      -0.049 (-1.1, 0.94) 
+24 -> network                       1.1 (0.40, 1.8)     
+25 d.I.Placebo             0.912925                     
+26 -> direct                        0.12 (-0.81, 0.99)  
+27 -> indirect                      0.20 (-0.87, 1.3)   
+28 -> network                       0.16 (-0.52, 0.80)  
+29 d.II.Placebo            0.084775                     
+30 -> direct                        -0.89 (-2.2, 0.30)  
+31 -> indirect                      0.46 (-0.54, 1.5)   
+32 -> network                       -0.077 (-0.86, 0.68)
+33 d.III.Placebo           0.056350                     
+34 -> direct                        -0.037 (-1.3, 1.2)  
+35 -> indirect                      -1.6 (-2.8, -0.55)  
+36 -> network                       -0.93 (-1.8, -0.13) 
