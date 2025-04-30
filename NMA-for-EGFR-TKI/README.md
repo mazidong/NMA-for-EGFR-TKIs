@@ -42,16 +42,16 @@ All input data are provided, and every step from data loading to final figure/ta
    if (!requireNamespace("BiocManager", quietly = TRUE))
       install.packages("BiocManager")
    BiocManager::install(c("ComplexHeatmap", "circlize", "GetoptLong"))
-  ```
+   ```
 
 2. **JAGS Library (Required for `rjags`)**:
 
-  The rjags package requires that you have the JAGS library installed on your system. Install it from:
+   The rjags package requires that you have the JAGS library installed on your system. Install it from:
 
-  Windows: Download installer from [JAGS official site](https://sourceforge.net/projects/mcmc-jags/files/)
-  macOS: brew install jags
-  Linux: sudo apt-get install jags
-  Once JAGS is installed, install the R packages:
+   Windows: Download installer from [JAGS official site](https://sourceforge.net/projects/mcmc-jags/files/)
+   macOS: brew install jags
+   Linux: sudo apt-get install jags
+   Once JAGS is installed, install the R packages:
 
    ```r
    install.packages(c("rjags", "gemtc"))
