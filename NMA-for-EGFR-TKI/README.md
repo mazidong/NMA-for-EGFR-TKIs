@@ -51,6 +51,7 @@ All input data are provided, and every step from data loading to final figure/ta
    - **Windows**: Download installer from [JAGS official site](https://sourceforge.net/projects/mcmc-jags/files/)
    - **macOS**: `brew install jags`
    - **Linux**: `sudo apt-get install jags`
+   
    Once JAGS is installed, install the R packages:
 
    ```r
@@ -109,4 +110,4 @@ All input data are provided, and every step from data loading to final figure/ta
 ---
 
 ## Notes
-For further details on the full dataset of the network meta-analysis about epidermal growth factor receptor tyrosine kinase inhibitors-based therapies of EGFR-mutated non-small-cell lung cancer please contact the contact author Professor Xiaohong Kang (1fy2014036@xxmu.edu.cn) and Professor Sizhi Ai (ai_sz@xxmu.edu.cn). 
+For further details on the full dataset of the network meta-analysis please contact the corresponding author Professor Kang Xiaohong (1fy2014036@xxmu.edu.cn) and Professor Ai Sizhi (ai_sz@xxmu.edu.cn). 
