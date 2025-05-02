@@ -2,7 +2,7 @@
 
 ## Overview
 
-This study was based on the framework of network meta-analysis to investigate treatment-related cardiac and vascular adverse events in patients with non-small cell lung cancer treated with related therapies such as EGFR inhibitors, in addition to a detailed assessment using pairwise meta-analysis, Bayesian framework of network meta-analysis, single-group meta-analysis, subgroup analyses, and regression analyses.
+This study was based on the framework of network meta-analysis to investigate treatment-related cardiac and vascular adverse events in patients with non-small cell lung cancer treated with related therapies such as EGFR TKIs, in addition to a detailed assessment using pairwise meta-analysis, Bayesian framework of network meta-analysis, single-arm meta-analysis, subgroup analyses, and regression analyses.
 
 All input data are provided, and every step from data loading to final figure/table output is fully documented and executable. This structure is designed to meet reproducibility requirements for journal submission.
 
@@ -15,10 +15,10 @@ All input data are provided, and every step from data loading to final figure/ta
 - `scripts/`: All R scripts, modularized by function:
   - `1. Network-meta-analysis.r`: Perform network meta-analysis on each sheet and output graphs and tables.
   - `2. Forest-plot.r`: Forest plots for comparison of cardiac and vascular adverse drug reactions between EGFR TKIs and placebo.
-  - `3. Incidence heat map.r`: The incidence heat map of the first to third generation EGFR TKIs based on primary and secondary outcomes.
+  - `3. Incidence heat map.r`: The incidence heat map of the first- to third-generation EGFR TKIs based on primary and secondary outcomes.
   - `4. Funnel_plot.r`: Generating funnel plots for network meta-analyses of primary outcomes, secondary outcomes and retention of high quality studies.
   - `5. Subgroup forest plot.r`: Extraction of summary outcome estimates for head-to-head comparisons in paired meta-analyses, and visualisation for graphs.
-  - `6. Single group meta-analysis.r`: Extraction of primary outcome and secondary outcome safety data for the EGFR-TKI arm of the RCTs, single arm trials, observational studies, single group meta-analysis, forest plotting.
+  - `6. Single group meta-analysis.r`: Extraction of primary outcome and secondary outcome safety data for the EGFR-TKI arm of the RCTs, single-arm trials, observational studies and real-world studies, single-arm meta-analysis, forest plotting.
   - `7. Bayesian-network-meta-analysis.r`: Bayesian network meta-analysis was performed based on primary and secondary outcomes, and SUCRA values were collected for each therapy to draw heat maps.
   - `8. Baseline_distribution.r`: Generate baseline (sex, age, proportion of Asian population, proportion of non-smokers, median follow-up duration) distribution of all therapies included in the randomised controlled trial.
   - `9. Bayesian-network-regression-analysis.r`: Bayesian network meta-regression analyses (regression dependent on continuous and binary variables) were performed on the primary and secondary outcomes, effect values from regression analyses were extracted to construct tables, SUCRA values from binary regression analyses were extracted, heat maps were plotted, and multivariate correlation analyses were performed to compare differences between groups.
