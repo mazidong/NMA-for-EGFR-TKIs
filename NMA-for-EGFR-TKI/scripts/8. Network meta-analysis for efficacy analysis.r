@@ -83,7 +83,7 @@ netgraph(m.netmeta, seq = "optimal",
 dev.off()
 
 pdf(file.path(main_output_dir, "PFS-netmeta-forest.pdf"), width = 10, height = 10)
-forest(m.netmeta,
+meta::forest(m.netmeta,
        reference.group = "Placebo",
        #smlab = "Comparison: other vs Placebo",
        drop.reference.group = TRUE,
@@ -95,7 +95,7 @@ forest(m.netmeta,
 dev.off()
 
 pdf(file.path(main_output_dir, "PFS-netmeta-forest-1.pdf"), width = 10, height = 10)
-forest(m.netmeta,
+meta::forest(m.netmeta,
        reference.group = "Placebo",
        drop.reference.group = TRUE,
        col.square = "#91cbd9",
