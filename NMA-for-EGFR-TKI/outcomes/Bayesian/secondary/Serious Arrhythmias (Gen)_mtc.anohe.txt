@@ -1,0 +1,37 @@
+[1] "Serious Arrhythmias (Gen)[2025-05-26 04:58:58]: mtc.anohe"
+Analysis of heterogeneity
+=========================
+
+Per-comparison I-squared:
+-------------------------
+
+          t1              t2  i2.pair  i2.cons  incons.p
+1  antiangio               I 44.73446 44.66579        NA
+2      chemo               I 20.26085 10.96357 0.6960092
+3      chemo         I_chemo       NA  0.00000 0.7649085
+4      chemo              II       NA 43.07957 0.1310406
+5      chemo             III       NA  0.00000 0.6253925
+6      DHFRi               I       NA       NA        NA
+7          I     I_antiangio 31.33775 29.96981        NA
+8          I         I_chemo  0.00000  0.00000        NA
+9          I         I_HER3i       NA       NA        NA
+10         I       I_IGF_1Ri 50.68296 48.88628        NA
+11         I          I_METi  0.00000  0.00000        NA
+12         I              II 55.26042 42.99281 0.5931923
+13         I             III  0.00000  0.00000 0.9357650
+14         I         Placebo 53.33306 19.87302 0.4925870
+15         I     Rociletinib       NA       NA        NA
+16         I    Zorifertinib       NA       NA        NA
+17        II    II_Cetuximab       NA       NA        NA
+18        II       II_HMGCRi       NA       NA        NA
+19        II         Placebo 15.23827  0.00000 0.7439047
+20       III III_Amivantamab       NA       NA        NA
+21       III   III_antiangio 11.67479  0.00000        NA
+22       III       III_chemo       NA       NA        NA
+23       III         Placebo 34.14914  0.00000 0.8610560
+
+Global I-squared:
+-------------------------
+
+   i2.pair  i2.cons
+1 40.89666 15.49229

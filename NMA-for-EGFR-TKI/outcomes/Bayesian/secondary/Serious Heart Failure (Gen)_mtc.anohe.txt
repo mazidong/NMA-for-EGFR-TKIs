@@ -1,0 +1,33 @@
+[1] "Serious Heart Failure (Gen)[2025-05-26 05:55:50]: mtc.anohe"
+Analysis of heterogeneity
+=========================
+
+Per-comparison I-squared:
+-------------------------
+
+          t1              t2  i2.pair  i2.cons    incons.p
+1  antiangio               I       NA       NA          NA
+2      chemo               I 71.91777 43.83486 0.999632480
+3      chemo              II       NA 43.82020 0.232428049
+4      chemo             III       NA 43.59941 0.209358516
+5          I     I_antiangio 33.48335 34.65498          NA
+6          I         I_chemo 53.84674 56.66639          NA
+7          I         I_HER3i       NA       NA          NA
+8          I       I_IGF_1Ri       NA       NA          NA
+9          I          I_METi  0.00000  0.00000          NA
+10         I          I_MMPi       NA       NA          NA
+11         I         I_PARPi       NA       NA          NA
+12         I              II  0.00000  0.00000 0.202301512
+13         I             III 54.07512 57.12980 0.223693590
+14         I         Placebo  0.00000 35.85302 0.225672073
+15        II         Placebo       NA  0.00000 0.935795242
+16       III III_Amivantamab       NA       NA          NA
+17       III   III_antiangio       NA       NA          NA
+18       III       III_chemo       NA       NA          NA
+19       III         Placebo 50.99686 87.63418 0.001957603
+
+Global I-squared:
+-------------------------
+
+   i2.pair  i2.cons
+1 27.90721 52.20899

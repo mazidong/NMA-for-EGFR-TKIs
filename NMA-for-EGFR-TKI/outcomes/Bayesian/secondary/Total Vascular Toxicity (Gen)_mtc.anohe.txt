@@ -1,0 +1,40 @@
+[1] "Total Vascular Toxicity (Gen)[2025-05-26 07:38:57]: mtc.anohe"
+Analysis of heterogeneity
+=========================
+
+Per-comparison I-squared:
+-------------------------
+
+          t1              t2   i2.pair   i2.cons   incons.p
+1  antiangio               I 42.975913 60.745708         NA
+2  antiangio     I_antiangio        NA  0.000000 0.40412450
+3      chemo               I 37.741302 42.007943 0.16882878
+4      chemo              II 50.010216  2.143712 0.44668549
+5      chemo             III        NA 47.551374 0.34956757
+6      DHFRi               I        NA        NA         NA
+7          I     I_antiangio 32.869888 35.497526         NA
+8          I    I_Autophagyi        NA        NA         NA
+9          I         I_chemo 45.490476 45.410433         NA
+10         I         I_COX2i        NA        NA         NA
+11         I           I_ERi        NA        NA         NA
+12         I         I_HER3i        NA        NA         NA
+13         I          I_HGFi        NA        NA         NA
+14         I       I_IGF_1Ri 60.871591 61.136454         NA
+15         I          I_METi 67.109333 67.456178         NA
+16         I          I_MMPi        NA        NA         NA
+17         I              II  4.562242  0.000000 0.50358693
+18         I             III 56.331378 33.888562 0.08037727
+19         I         Placebo 34.642417 20.320293 0.90797815
+20         I     Rociletinib        NA        NA         NA
+21        II    II_Cetuximab        NA        NA         NA
+22        II         Placebo  0.000000 44.907034 0.16333217
+23       III III_Amivantamab        NA        NA         NA
+24       III   III_antiangio        NA        NA         NA
+25       III       III_chemo        NA        NA         NA
+26       III         Placebo  0.000000 41.006498 0.14372606
+
+Global I-squared:
+-------------------------
+
+   i2.pair  i2.cons
+1 41.37063 41.50736

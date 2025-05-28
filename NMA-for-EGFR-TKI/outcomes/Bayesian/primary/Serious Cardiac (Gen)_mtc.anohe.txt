@@ -1,0 +1,40 @@
+[1] "Serious Cardiac (Gen)[2025-05-26 01:40:59]: mtc.anohe"
+Analysis of heterogeneity
+=========================
+
+Per-comparison I-squared:
+-------------------------
+
+          t1              t2  i2.pair   i2.cons  incons.p
+1  antiangio               I 43.82210 44.208045        NA
+2      chemo               I 27.35202 19.374330 0.4901796
+3      chemo         I_chemo       NA  0.000000 0.7361376
+4      chemo              II 48.65120  5.240176 0.2644014
+5      chemo             III       NA  0.000000 0.6186854
+6      DHFRi               I       NA        NA        NA
+7          I     I_antiangio 33.11692 33.100918        NA
+8          I         I_chemo  0.00000  0.000000        NA
+9          I         I_COX2i       NA        NA        NA
+10         I         I_HER3i       NA        NA        NA
+11         I       I_IGF_1Ri 66.13485 63.438310        NA
+12         I          I_METi  0.00000  0.000000        NA
+13         I          I_MMPi       NA        NA        NA
+14         I         I_PARPi       NA        NA        NA
+15         I              II  0.00000  0.000000 0.9269825
+16         I             III  0.00000  0.000000 0.5663117
+17         I         Placebo  0.00000  0.000000 0.6191068
+18         I     Rociletinib       NA        NA        NA
+19         I    Zorifertinib       NA        NA        NA
+20        II    II_Cetuximab       NA        NA        NA
+21        II       II_HMGCRi       NA        NA        NA
+22        II         Placebo 76.30215 52.789304 0.7741511
+23       III III_Amivantamab       NA        NA        NA
+24       III   III_antiangio 27.84463 27.802988        NA
+25       III       III_chemo       NA        NA        NA
+26       III         Placebo 21.49702 30.428211 0.2447688
+
+Global I-squared:
+-------------------------
+
+   i2.pair  i2.cons
+1 18.16877 10.21952

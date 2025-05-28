@@ -1,0 +1,25 @@
+[1] "Serious Hypertension[2025-05-26 07:57:09]: gelman.diag"
+Potential scale reduction factors:
+
+                                    Point est. Upper C.I.
+d.Afatinib.Afatinib_Cetuximab             1.00       1.01
+d.Erlotinib.antiangio                     1.00       1.00
+d.Erlotinib.chemo                         1.01       1.01
+d.Erlotinib.Erlotinib_antiangio           1.00       1.00
+d.Erlotinib.Erlotinib_IGF_1Ri             1.00       1.01
+d.Erlotinib.Erlotinib_METi                1.01       1.02
+d.Gefitinib.Gefitinib_antiangio           1.00       1.00
+d.Gefitinib.Gefitinib_chemo               1.00       1.00
+d.Gefitinib.Lazertinib                    1.00       1.00
+d.Osimertinib.Gefitinib_Erlotinib         1.00       1.01
+d.Osimertinib.Osimertinib_antiangio       1.00       1.00
+d.Osimertinib.Osimertinib_chemo           1.01       1.01
+d.Placebo.Afatinib                        1.00       1.00
+d.Placebo.Erlotinib                       1.00       1.00
+d.Placebo.Gefitinib                       1.00       1.00
+d.Placebo.Osimertinib                     1.00       1.00
+sd.d                                      1.00       1.00
+
+Multivariate psrf
+
+1.01

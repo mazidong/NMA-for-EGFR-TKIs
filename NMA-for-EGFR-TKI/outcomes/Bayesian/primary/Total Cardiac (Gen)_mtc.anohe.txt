@@ -1,0 +1,45 @@
+[1] "Total Cardiac (Gen)[2025-05-26 02:29:52]: mtc.anohe"
+Analysis of heterogeneity
+=========================
+
+Per-comparison I-squared:
+-------------------------
+
+                t1              t2  i2.pair  i2.cons  incons.p
+1        antiangio               I 53.95375 58.90727        NA
+2        antiangio     I_antiangio       NA  0.00000 0.6714062
+3  chemo_antiangio             III       NA       NA        NA
+4            chemo               I 26.87458 17.32009 0.6798756
+5            chemo         I_chemo       NA  0.00000 0.8433419
+6            chemo              II 47.09048  0.00000 0.4660251
+7            chemo             III       NA  0.00000 0.5741169
+8            DHFRi               I       NA       NA        NA
+9                I     I_antiangio 31.91924 31.87248        NA
+10               I    I_Autophagyi       NA       NA        NA
+11               I         I_chemo  0.00000  0.00000        NA
+12               I         I_COX2i       NA       NA        NA
+13               I         I_HER3i       NA       NA        NA
+14               I          I_HGFi       NA       NA        NA
+15               I       I_IGF_1Ri 72.35976 70.93558        NA
+16               I          I_METi  0.00000  0.00000        NA
+17               I          I_MMPi       NA       NA        NA
+18               I         I_PARPi       NA       NA        NA
+19               I              II  0.00000  0.00000 0.6993760
+20               I             III 29.71345 17.03565 0.6677350
+21               I         Placebo  0.00000  0.00000 0.6233657
+22               I     Rociletinib       NA       NA        NA
+23               I    Zorifertinib       NA       NA        NA
+24              II    II_Cetuximab       NA       NA        NA
+25              II       II_HMGCRi       NA       NA        NA
+26              II         Placebo 76.32405 52.92567 0.9292393
+27             III III_Amivantamab       NA       NA        NA
+28             III   III_antiangio 40.55832 40.60102        NA
+29             III       III_chemo 58.66477 57.57909        NA
+30             III      III_PD_L1i       NA       NA        NA
+31             III         Placebo  0.00000  0.00000 0.5615064
+
+Global I-squared:
+-------------------------
+
+   i2.pair  i2.cons
+1 21.85233 15.95741

@@ -1,0 +1,29 @@
+[1] "Serious Hypertension (Gen)[2025-05-26 08:06:31]: mtc.anohe"
+Analysis of heterogeneity
+=========================
+
+Per-comparison I-squared:
+-------------------------
+
+          t1            t2   i2.pair  i2.cons  incons.p
+1  antiangio             I 48.363174 68.52019        NA
+2  antiangio   I_antiangio        NA 22.65508 0.4427508
+3      chemo             I        NA       NA        NA
+4          I   I_antiangio 63.101966 62.68606        NA
+5          I       I_chemo  8.856093 16.71190        NA
+6          I     I_IGF_1Ri        NA       NA        NA
+7          I        I_METi        NA       NA        NA
+8          I            II 78.261252 38.59869 0.3858220
+9          I           III 95.492701 36.94434 0.1405705
+10         I       Placebo 69.004149 46.84009 0.2160962
+11        II  II_Cetuximab        NA       NA        NA
+12        II       Placebo        NA 45.50374 0.3274731
+13       III III_antiangio 79.694232 81.42702        NA
+14       III     III_chemo        NA       NA        NA
+15       III       Placebo        NA 73.06786 0.1081068
+
+Global I-squared:
+-------------------------
+
+  i2.pair  i2.cons
+1 85.7718 65.02594

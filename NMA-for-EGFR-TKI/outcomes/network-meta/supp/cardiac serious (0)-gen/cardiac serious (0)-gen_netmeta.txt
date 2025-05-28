@@ -1,0 +1,78 @@
+Number of studies: k = 88
+Number of pairwise comparisons: m = 90
+Number of observations: o = 28876
+Number of treatments: n = 27
+Number of designs: d = 31
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'Placebo'):
+                                                    OR             95%-CI     z p-value
+1st-generation EGFR TKIs                        1.0819 [0.6785;   1.7251]  0.33  0.7409
+1st-generation EGFR TKIs + antiangiogenesis     1.2934 [0.6713;   2.4918]  0.77  0.4420
+1st-generation EGFR TKIs + Autophagy inhibitor  1.0819 [0.0204;  57.4835]  0.04  0.9690
+1st-generation EGFR TKIs + chemotherapy         1.5823 [0.6494;   3.8553]  1.01  0.3126
+1st-generation EGFR TKIs + COX2 inhibitor       0.3474 [0.0134;   9.0184] -0.64  0.5246
+1st-generation EGFR TKIs + ER inhibitor         1.0933 [0.0209;  57.2289]  0.04  0.9648
+1st-generation EGFR TKIs + HER3 inhibitor       2.4015 [0.5441;  10.6005]  1.16  0.2475
+1st-generation EGFR TKIs + HGF inhibitor        0.5049 [0.0080;  31.9139] -0.32  0.7467
+1st-generation EGFR TKIs + IGF-1R inhibitor     1.4606 [0.5227;   4.0814]  0.72  0.4700
+1st-generation EGFR TKIs + MET inhibitor        0.9426 [0.4439;   2.0014] -0.15  0.8777
+1st-generation EGFR TKIs + MMP inhibitor       10.4375 [0.5319; 204.8260]  1.54  0.1225
+1st-generation EGFR TKIs + PARP inhibitor       3.2815 [0.1276;  84.4169]  0.72  0.4733
+2nd-generation EGFR TKIs                        0.9393 [0.5497;   1.6052] -0.23  0.8189
+2nd-generation EGFR TKIs + Cetuximab            0.9621 [0.0922;  10.0422] -0.03  0.9742
+2nd-generation EGFR TKIs + HMGCR inhibitor      0.2702 [0.0102;   7.1810] -0.78  0.4343
+3rd-generation EGFR TKIs                        1.7018 [0.9679;   2.9922]  1.85  0.0648
+3rd-generation EGFR TKIs + Amivantamab          2.1067 [0.8236;   5.3887]  1.56  0.1199
+3rd-generation EGFR TKIs + antiangiogenesis     5.8918 [1.2306;  28.2080]  2.22  0.0264
+3rd-generation EGFR TKIs + chemotherapy         3.5874 [1.1817;  10.8904]  2.25  0.0242
+3rd-generation EGFR TKIs + PD-L1 inhibitor      2.3826 [0.0425; 133.5508]  0.42  0.6726
+Antiangiogenesis                                4.4401 [1.8136;  10.8703]  3.26  0.0011
+Chemotherapy                                    1.2439 [0.6517;   2.3742]  0.66  0.5081
+Chemotherapy + antiangiogenesis                 1.7253 [0.0324;  91.7448]  0.27  0.7879
+DHFR inhibitor                                  0.8682 [0.1938;   3.8895] -0.18  0.8534
+Placebo                                              .                  .     .       .
+Rociletinib                                     1.5798 [0.2784;   8.9645]  0.52  0.6057
+Zorifertinib                                    2.6645 [0.6958;  10.2044]  1.43  0.1526
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'Placebo'):
+                                                    OR             95%-CI     z p-value
+1st-generation EGFR TKIs                        1.0819 [0.6785;   1.7251]  0.33  0.7409
+1st-generation EGFR TKIs + antiangiogenesis     1.2934 [0.6713;   2.4918]  0.77  0.4420
+1st-generation EGFR TKIs + Autophagy inhibitor  1.0819 [0.0204;  57.4835]  0.04  0.9690
+1st-generation EGFR TKIs + chemotherapy         1.5823 [0.6494;   3.8553]  1.01  0.3126
+1st-generation EGFR TKIs + COX2 inhibitor       0.3474 [0.0134;   9.0184] -0.64  0.5246
+1st-generation EGFR TKIs + ER inhibitor         1.0933 [0.0209;  57.2289]  0.04  0.9648
+1st-generation EGFR TKIs + HER3 inhibitor       2.4015 [0.5441;  10.6005]  1.16  0.2475
+1st-generation EGFR TKIs + HGF inhibitor        0.5049 [0.0080;  31.9139] -0.32  0.7467
+1st-generation EGFR TKIs + IGF-1R inhibitor     1.4606 [0.5227;   4.0814]  0.72  0.4700
+1st-generation EGFR TKIs + MET inhibitor        0.9426 [0.4439;   2.0014] -0.15  0.8777
+1st-generation EGFR TKIs + MMP inhibitor       10.4375 [0.5319; 204.8260]  1.54  0.1225
+1st-generation EGFR TKIs + PARP inhibitor       3.2815 [0.1276;  84.4169]  0.72  0.4733
+2nd-generation EGFR TKIs                        0.9393 [0.5497;   1.6052] -0.23  0.8189
+2nd-generation EGFR TKIs + Cetuximab            0.9621 [0.0922;  10.0422] -0.03  0.9742
+2nd-generation EGFR TKIs + HMGCR inhibitor      0.2702 [0.0102;   7.1810] -0.78  0.4343
+3rd-generation EGFR TKIs                        1.7018 [0.9679;   2.9922]  1.85  0.0648
+3rd-generation EGFR TKIs + Amivantamab          2.1067 [0.8236;   5.3887]  1.56  0.1199
+3rd-generation EGFR TKIs + antiangiogenesis     5.8918 [1.2306;  28.2080]  2.22  0.0264
+3rd-generation EGFR TKIs + chemotherapy         3.5874 [1.1817;  10.8904]  2.25  0.0242
+3rd-generation EGFR TKIs + PD-L1 inhibitor      2.3826 [0.0425; 133.5508]  0.42  0.6726
+Antiangiogenesis                                4.4401 [1.8136;  10.8703]  3.26  0.0011
+Chemotherapy                                    1.2439 [0.6517;   2.3742]  0.66  0.5081
+Chemotherapy + antiangiogenesis                 1.7253 [0.0324;  91.7448]  0.27  0.7879
+DHFR inhibitor                                  0.8682 [0.1938;   3.8895] -0.18  0.8534
+Placebo                                              .                  .     .       .
+Rociletinib                                     1.5798 [0.2784;   8.9645]  0.52  0.6057
+Zorifertinib                                    2.6645 [0.6958;  10.2044]  1.43  0.1526
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 29.7%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           27.31   63  1.0000
+Within designs  24.29   57  1.0000
+Between designs  3.02    6  0.8069

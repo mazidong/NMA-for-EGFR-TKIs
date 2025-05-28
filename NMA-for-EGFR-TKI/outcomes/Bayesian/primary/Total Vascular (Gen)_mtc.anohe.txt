@@ -1,0 +1,41 @@
+[1] "Total Vascular (Gen)[2025-05-26 04:19:51]: mtc.anohe"
+Analysis of heterogeneity
+=========================
+
+Per-comparison I-squared:
+-------------------------
+
+          t1              t2  i2.pair  i2.cons  incons.p
+1  antiangio               I 84.10469 86.13457        NA
+2  antiangio     I_antiangio       NA  0.00000 0.6474825
+3      chemo               I 46.50492 47.66786 0.3773536
+4      chemo         I_chemo       NA  0.00000 0.8309729
+5      chemo              II 61.31122  0.00000 0.7385271
+6      chemo             III       NA 61.56635 0.4639442
+7      DHFRi               I       NA       NA        NA
+8          I     I_antiangio 85.79513 85.25151        NA
+9          I    I_Autophagyi       NA       NA        NA
+10         I         I_chemo  0.00000  0.00000        NA
+11         I           I_ERi       NA       NA        NA
+12         I         I_HER3i       NA       NA        NA
+13         I          I_HGFi       NA       NA        NA
+14         I       I_IGF_1Ri 70.93763 69.26827        NA
+15         I          I_METi 70.43506 69.69335        NA
+16         I          I_MMPi       NA       NA        NA
+17         I              II  0.00000  0.00000 0.5357163
+18         I             III 86.85955 77.69431 0.2159092
+19         I         Placebo  1.26368  0.00000 0.9208274
+20         I     Rociletinib       NA       NA        NA
+21        II    II_Cetuximab       NA       NA        NA
+22        II         Placebo 44.29415 38.22461 0.2891408
+23       III III_Amivantamab       NA       NA        NA
+24       III   III_antiangio 54.60421 53.65954        NA
+25       III       III_chemo 59.20489 57.45288        NA
+26       III      III_PD_L1i       NA       NA        NA
+27       III         Placebo  0.00000  0.00000 0.2914566
+
+Global I-squared:
+-------------------------
+
+   i2.pair  i2.cons
+1 70.65249 67.34824

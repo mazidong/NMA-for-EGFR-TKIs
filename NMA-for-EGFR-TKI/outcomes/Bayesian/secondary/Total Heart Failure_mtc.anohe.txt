@@ -1,0 +1,43 @@
+[1] "Total Heart Failure[2025-05-26 06:04:23]: mtc.anohe"
+Analysis of heterogeneity
+=========================
+
+Per-comparison I-squared:
+-------------------------
+
+                       t1                     t2  i2.pair  i2.cons    incons.p
+1                Afatinib                  chemo       NA 25.25352 0.223687196
+2                Afatinib              Erlotinib       NA 71.59341 0.090285008
+3                Afatinib                Placebo       NA  0.00000 0.803917967
+4            Almonertinib              Gefitinib       NA       NA          NA
+5               antiangio              Erlotinib  0.00000  0.00000          NA
+6                   chemo              Erlotinib       NA 41.97498 0.246014424
+7                   chemo              Gefitinib       NA 29.12072 0.244776143
+8                   chemo            Osimertinib       NA 43.55209 0.169533216
+9             Dacomitinib              Erlotinib       NA       NA          NA
+10              Erlotinib    Erlotinib_antiangio 35.38350 35.29829          NA
+11              Erlotinib        Erlotinib_chemo       NA       NA          NA
+12              Erlotinib        Erlotinib_HER3i       NA       NA          NA
+13              Erlotinib         Erlotinib_HGFi       NA       NA          NA
+14              Erlotinib      Erlotinib_IGF_1Ri       NA       NA          NA
+15              Erlotinib         Erlotinib_METi  0.00000  0.00000          NA
+16              Erlotinib         Erlotinib_MMPi       NA       NA          NA
+17              Erlotinib                Placebo  0.00000 34.05057 0.274942257
+18    Gefitinib_Erlotinib            Osimertinib       NA       NA          NA
+19              Gefitinib        Gefitinib_chemo 70.03594 70.01876          NA
+20              Gefitinib        Gefitinib_PARPi       NA       NA          NA
+21              Gefitinib               Icotinib       NA       NA          NA
+22              Gefitinib             Lazertinib       NA 45.56344 0.125065953
+23              Gefitinib                Placebo       NA 30.37103 0.411951364
+24 Lazertinib_Amivantamab            Osimertinib       NA       NA          NA
+25             Lazertinib Lazertinib_Amivantamab       NA       NA          NA
+26             Lazertinib            Osimertinib       NA 89.07817 0.003320794
+27            Osimertinib  Osimertinib_antiangio       NA       NA          NA
+28            Osimertinib      Osimertinib_chemo       NA       NA          NA
+29            Osimertinib                Placebo 49.94773 90.63952          NA
+
+Global I-squared:
+-------------------------
+
+   i2.pair  i2.cons
+1 23.58462 55.96146

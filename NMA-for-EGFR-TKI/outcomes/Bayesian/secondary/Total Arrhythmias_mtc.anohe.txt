@@ -1,0 +1,52 @@
+[1] "Total Arrhythmias[2025-05-26 05:11:07]: mtc.anohe"
+Analysis of heterogeneity
+=========================
+
+Per-comparison I-squared:
+-------------------------
+
+                       t1                     t2  i2.pair  i2.cons   incons.p
+1                Afatinib     Afatinib_Cetuximab       NA       NA         NA
+2                Afatinib        Afatinib_HMGCRi       NA       NA         NA
+3                Afatinib                  chemo       NA 49.14866 0.10522041
+4                Afatinib              Erlotinib       NA 77.62418 0.04684896
+5                Afatinib              Gefitinib       NA 42.96589 0.33949886
+6                Afatinib                Placebo       NA  0.00000 0.91977682
+7            Almonertinib              Gefitinib       NA       NA         NA
+8               antiangio              Erlotinib 50.54580 77.30277         NA
+9               antiangio              Gefitinib       NA 44.64735 0.37817558
+10        chemo_antiangio            Osimertinib       NA       NA         NA
+11                  chemo              Erlotinib  0.00000 13.20637 0.27047940
+12                  chemo        Erlotinib_chemo       NA  0.00000 0.88636169
+13                  chemo              Gefitinib 46.78694  0.00000 0.97715625
+14                  chemo            Osimertinib       NA  0.00000 0.45995985
+15            Dacomitinib              Erlotinib       NA       NA         NA
+16            Dacomitinib                Placebo       NA  0.00000 0.52299681
+17                  DHFRi              Erlotinib       NA       NA         NA
+18              Erlotinib    Erlotinib_antiangio  0.00000  0.00000         NA
+19              Erlotinib   Erlotinib_Autophagyi       NA       NA         NA
+20              Erlotinib        Erlotinib_chemo  0.00000  0.00000         NA
+21              Erlotinib        Erlotinib_HER3i       NA       NA         NA
+22              Erlotinib      Erlotinib_IGF_1Ri 52.99048 55.95060         NA
+23              Erlotinib         Erlotinib_METi  0.00000  0.00000         NA
+24              Erlotinib         Erlotinib_MMPi       NA       NA         NA
+25              Erlotinib                Placebo 53.40583 22.74001 0.62366397
+26              Erlotinib            Rociletinib       NA       NA         NA
+27          Furmonertinib              Gefitinib       NA       NA         NA
+28    Gefitinib_Erlotinib            Osimertinib       NA       NA         NA
+29    Gefitinib_Erlotinib           Zorifertinib       NA       NA         NA
+30              Gefitinib        Gefitinib_chemo 46.11540 46.81088         NA
+31              Gefitinib             Lazertinib       NA 45.22895 0.17095727
+32 Lazertinib_Amivantamab            Osimertinib       NA       NA         NA
+33             Lazertinib Lazertinib_Amivantamab       NA       NA         NA
+34             Lazertinib            Osimertinib       NA  0.00000 0.42494220
+35            Osimertinib  Osimertinib_antiangio  0.00000  0.00000         NA
+36            Osimertinib      Osimertinib_chemo 53.65022 61.21837         NA
+37            Osimertinib     Osimertinib_PD_L1i       NA       NA         NA
+38            Osimertinib                Placebo  0.00000  0.00000         NA
+
+Global I-squared:
+-------------------------
+
+   i2.pair  i2.cons
+1 20.47474 24.04633

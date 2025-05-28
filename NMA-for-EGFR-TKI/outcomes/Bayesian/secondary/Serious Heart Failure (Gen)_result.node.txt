@@ -1,0 +1,37 @@
+[1] "Serious Heart Failure (Gen)[2025-05-26 05:55:50]: mtc.nodesplit"
+Node-splitting analysis of inconsistency
+========================================
+
+   comparison    p.value  CrI                
+1  d.chemo.I     0.973125                    
+2  -> direct              -0.0031 (-4.5, 4.4)
+3  -> indirect            0.093 (-4.2, 4.9)  
+4  -> network             0.0023 (-2.9, 3.0) 
+5  d.chemo.II    0.031600                    
+6  -> direct              -22. (-75., -0.98) 
+7  -> indirect            0.72 (-3.2, 5.2)   
+8  -> network             -0.78 (-4.3, 2.5)  
+9  d.chemo.III   0.044100                    
+10 -> direct              14. (0.12, 50.)    
+11 -> indirect            -1.1 (-5.8, 2.9)   
+12 -> network             0.50 (-2.7, 3.8)   
+13 d.I.II        0.374450                    
+14 -> direct              -0.20 (-3.1, 2.7)  
+15 -> indirect            -2.4 (-7.3, 1.5)   
+16 -> network             -0.78 (-3.3, 1.3)  
+17 d.I.III       0.291225                    
+18 -> direct              1.4 (-1.4, 4.0)    
+19 -> indirect            -0.97 (-4.3, 2.7)  
+20 -> network             0.49 (-1.7, 2.6)   
+21 d.I.Placebo   0.006100                    
+22 -> direct              -21. (-67., -2.7)  
+23 -> indirect            0.11 (-3.0, 2.9)   
+24 -> network             -1.8 (-4.6, 0.17)  
+25 d.II.Placebo  0.992325                    
+26 -> direct              -1.0 (-5.6, 2.9)   
+27 -> indirect            -1.1 (-5.2, 2.3)   
+28 -> network             -0.95 (-3.9, 1.4)  
+29 d.III.Placebo 0.026900                    
+30 -> direct              -0.13 (-3.3, 2.5)  
+31 -> indirect            -5.3 (-9.9, -1.9)  
+32 -> network             -2.3 (-5.2, -0.10) 

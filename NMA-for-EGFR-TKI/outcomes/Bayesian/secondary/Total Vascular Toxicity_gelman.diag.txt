@@ -1,0 +1,37 @@
+[1] "Total Vascular Toxicity[2025-05-26 07:11:23]: gelman.diag"
+Potential scale reduction factors:
+
+                                     Point est. Upper C.I.
+d.Afatinib.Afatinib_Cetuximab              1.00       1.00
+d.Afatinib.Placebo                         1.00       1.00
+d.chemo.Afatinib                           1.00       1.00
+d.chemo.Erlotinib                          1.00       1.00
+d.chemo.Gefitinib                          1.00       1.00
+d.chemo.Osimertinib                        1.00       1.00
+d.Erlotinib.antiangio                      1.00       1.00
+d.Erlotinib.Dacomitinib                    1.00       1.00
+d.Erlotinib.DHFRi                          1.00       1.00
+d.Erlotinib.Erlotinib_antiangio            1.00       1.00
+d.Erlotinib.Erlotinib_Autophagyi           1.03       1.09
+d.Erlotinib.Erlotinib_chemo                1.00       1.00
+d.Erlotinib.Erlotinib_COX2i                1.03       1.07
+d.Erlotinib.Erlotinib_ERi                  1.00       1.00
+d.Erlotinib.Erlotinib_HER3i                1.00       1.00
+d.Erlotinib.Erlotinib_HGFi                 1.00       1.00
+d.Erlotinib.Erlotinib_IGF_1Ri              1.00       1.00
+d.Erlotinib.Erlotinib_METi                 1.00       1.00
+d.Erlotinib.Erlotinib_MMPi                 1.00       1.00
+d.Erlotinib.Gefitinib_ERi                  1.00       1.00
+d.Erlotinib.Rociletinib                    1.00       1.00
+d.Gefitinib.Almonertinib                   1.02       1.04
+d.Gefitinib.Gefitinib_chemo                1.00       1.00
+d.Gefitinib.Lazertinib                     1.00       1.00
+d.Osimertinib.Gefitinib_Erlotinib          1.00       1.00
+d.Osimertinib.Lazertinib_Amivantamab       1.00       1.00
+d.Osimertinib.Osimertinib_antiangio        1.00       1.00
+d.Osimertinib.Osimertinib_chemo            1.00       1.00
+sd.d                                       1.00       1.00
+
+Multivariate psrf
+
+1.04

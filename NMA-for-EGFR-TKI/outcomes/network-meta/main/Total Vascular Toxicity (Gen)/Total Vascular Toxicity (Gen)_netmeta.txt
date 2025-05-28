@@ -1,0 +1,41 @@
+Number of studies: k = 71
+Number of pairwise comparisons: m = 73
+Number of observations: o = 25951
+Number of treatments: n = 22
+Number of designs: d = 26
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'Placebo'):
+                                                   OR            95%-CI     z  p-value
+1st-generation EGFR TKIs                       0.8647 [0.5295;  1.4122] -0.58   0.5613
+1st-generation EGFR TKIs + antiangiogenesis    1.0056 [0.5380;  1.8797]  0.02   0.9860
+1st-generation EGFR TKIs + Autophagy inhibitor 0.1139 [0.0052;  2.5109] -1.38   0.1686
+1st-generation EGFR TKIs + chemotherapy        1.0755 [0.4751;  2.4350]  0.17   0.8614
+1st-generation EGFR TKIs + COX2 inhibitor      0.2777 [0.0101;  7.6151] -0.76   0.4482
+1st-generation EGFR TKIs + ER inhibitor        2.5026 [0.7371;  8.4968]  1.47   0.1413
+1st-generation EGFR TKIs + HER3 inhibitor      0.5539 [0.1100;  2.7895] -0.72   0.4738
+1st-generation EGFR TKIs + HGF inhibitor       0.6551 [0.0473;  9.0783] -0.32   0.7525
+1st-generation EGFR TKIs + IGF-1R inhibitor    2.2935 [0.7217;  7.2882]  1.41   0.1594
+1st-generation EGFR TKIs + MET inhibitor       1.2106 [0.5938;  2.4680]  0.53   0.5990
+1st-generation EGFR TKIs + MMP inhibitor       0.5039 [0.1201;  2.1142] -0.94   0.3489
+2nd-generation EGFR TKIs                       1.0495 [0.5874;  1.8751]  0.16   0.8704
+2nd-generation EGFR TKIs + Cetuximab           1.5059 [0.3683;  6.1578]  0.57   0.5688
+3rd-generation EGFR TKIs                       1.5743 [0.8529;  2.9059]  1.45   0.1467
+3rd-generation EGFR TKIs + Amivantamab         8.9397 [3.5183; 22.7153]  4.60 < 0.0001
+3rd-generation EGFR TKIs + antiangiogenesis    0.8629 [0.1439;  5.1733] -0.16   0.8718
+3rd-generation EGFR TKIs + chemotherapy        3.1132 [0.9075; 10.6803]  1.81   0.0710
+Antiangiogenesis                               1.5720 [0.6494;  3.8058]  1.00   0.3160
+Chemotherapy                                   1.3371 [0.6895;  2.5928]  0.86   0.3899
+DHFR inhibitor                                 0.9005 [0.0814;  9.9651] -0.09   0.9319
+Placebo                                             .                 .     .        .
+Rociletinib                                    0.8825 [0.0785;  9.9265] -0.10   0.9194
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0880; tau = 0.2966; I^2 = 17.3% [0.0%; 41.9%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f. p-value
+Total           61.67   51  0.1456
+Within designs  50.58   45  0.2628
+Between designs 11.09    6  0.0856

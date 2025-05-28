@@ -1,0 +1,43 @@
+[1] "Total Cardiac[2025-05-26 01:59:19]: gelman.diag"
+Potential scale reduction factors:
+
+                                     Point est. Upper C.I.
+d.Afatinib.Afatinib_Cetuximab              1.00       1.00
+d.Afatinib.Afatinib_HMGCRi                 1.00       1.00
+d.Afatinib.Placebo                         1.00       1.00
+d.chemo.Afatinib                           1.00       1.00
+d.chemo.Erlotinib                          1.00       1.00
+d.chemo.Erlotinib_chemo                    1.00       1.01
+d.chemo.Gefitinib                          1.00       1.00
+d.chemo.Osimertinib                        1.00       1.00
+d.Erlotinib.antiangio                      1.00       1.00
+d.Erlotinib.Dacomitinib                    1.00       1.00
+d.Erlotinib.DHFRi                          1.00       1.00
+d.Erlotinib.Erlotinib_antiangio            1.00       1.00
+d.Erlotinib.Erlotinib_Autophagyi           1.00       1.00
+d.Erlotinib.Erlotinib_COX2i                1.36       2.12
+d.Erlotinib.Erlotinib_HER3i                1.00       1.01
+d.Erlotinib.Erlotinib_HGFi                 1.05       1.13
+d.Erlotinib.Erlotinib_IGF_1Ri              1.00       1.00
+d.Erlotinib.Erlotinib_METi                 1.00       1.00
+d.Erlotinib.Erlotinib_MMPi                 1.00       1.00
+d.Erlotinib.Rociletinib                    1.00       1.00
+d.Gefitinib_Erlotinib.Zorifertinib         1.00       1.00
+d.Gefitinib.Almonertinib                   1.00       1.00
+d.Gefitinib.Furmonertinib                  1.00       1.00
+d.Gefitinib.Gefitinib_chemo                1.00       1.00
+d.Gefitinib.Gefitinib_PARPi                1.10       1.27
+d.Gefitinib.Icotinib                       1.13       1.35
+d.Gefitinib.Lazertinib                     1.00       1.00
+d.Icotinib.Befotertinib                    1.00       1.00
+d.Osimertinib.chemo_antiangio              1.08       1.20
+d.Osimertinib.Gefitinib_Erlotinib          1.00       1.00
+d.Osimertinib.Lazertinib_Amivantamab       1.00       1.00
+d.Osimertinib.Osimertinib_antiangio        1.00       1.00
+d.Osimertinib.Osimertinib_chemo            1.00       1.00
+d.Osimertinib.Osimertinib_PD_L1i           1.05       1.12
+sd.d                                       1.00       1.01
+
+Multivariate psrf
+
+1.39

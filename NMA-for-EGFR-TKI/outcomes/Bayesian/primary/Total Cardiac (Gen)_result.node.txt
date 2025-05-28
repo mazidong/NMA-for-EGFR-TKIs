@@ -1,0 +1,45 @@
+[1] "Total Cardiac (Gen)[2025-05-26 02:29:52]: mtc.nodesplit"
+Node-splitting analysis of inconsistency
+========================================
+
+   comparison              p.value  CrI                  
+1  d.antiangio.I_antiangio 0.796325                      
+2  -> direct                        -2.3 (-5.3, -0.43)   
+3  -> indirect                      -2.0 (-3.1, -0.99)   
+4  -> network                       -2.1 (-3.2, -1.3)    
+5  d.chemo.I               0.888050                      
+6  -> direct                        -0.098 (-0.65, 0.48) 
+7  -> indirect                      -0.20 (-1.4, 1.2)    
+8  -> network                       -0.11 (-0.60, 0.38)  
+9  d.chemo.I_chemo         0.878950                      
+10 -> direct                        0.0027 (-2.4, 2.4)   
+11 -> indirect                      0.20 (-0.70, 1.1)    
+12 -> network                       0.27 (-0.63, 1.1)    
+13 d.chemo.II              0.362600                      
+14 -> direct                        -1.2 (-3.4, 0.78)    
+15 -> indirect                      -0.27 (-0.93, 0.42)  
+16 -> network                       -0.40 (-1.0, 0.24)   
+17 d.chemo.III             0.476250                      
+18 -> direct                        0.82 (-0.68, 3.2)    
+19 -> indirect                      0.22 (-0.40, 0.84)   
+20 -> network                       0.27 (-0.27, 0.88)   
+21 d.I.II                  0.607225                      
+22 -> direct                        -0.20 (-0.74, 0.37)  
+23 -> indirect                      -0.50 (-1.5, 0.41)   
+24 -> network                       -0.29 (-0.75, 0.18)  
+25 d.I.III                 0.373050                      
+26 -> direct                        0.33 (-0.057, 0.71)  
+27 -> indirect                      0.74 (-0.055, 1.6)   
+28 -> network                       0.40 (0.060, 0.76)   
+29 d.I.Placebo             0.558550                      
+30 -> direct                        -0.31 (-1.1, 0.40)   
+31 -> indirect                      -0.61 (-1.3, 0.047)  
+32 -> network                       -0.49 (-0.99, -0.014)
+33 d.II.Placebo            0.877100                      
+34 -> direct                        -0.16 (-1.2, 0.77)   
+35 -> indirect                      -0.25 (-1.0, 0.51)   
+36 -> network                       -0.19 (-0.79, 0.37)  
+37 d.III.Placebo           0.489400                      
+38 -> direct                        -1.1 (-1.8, -0.37)   
+39 -> indirect                      -0.71 (-1.4, -0.024) 
+40 -> network                       -0.88 (-1.4, -0.39)  
