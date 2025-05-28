@@ -72,6 +72,8 @@ During the Bayesian network meta-analysis, occasional warnings of the form "In s
 
 During execution of Bayesian network meta-regression analyses, you may see a warning such as "In system('timedatectl', intern = TRUE) : running command 'timedatectl' had status 1." This simply indicates that the system utility for querying the time zone was not found and has no impact on any downstream analyses.
 
+In scripts 9. bayesian-network-meta-analysis.r, if the following error appears during runtime: "Error occurred in sheet Serious Vascular: Decomposed variance ill-defined for 37. Most likely the USE did not converge", it is likely due to Study 37 being a three-arm trial, in which one treatment arm reported zero events. This likely caused instability in estimating the variance-covariance matrix, leading to the "Decomposed variance ill-defined" warning. Statistically, such warnings are expected in sparse data scenarios. The model still converged successfully, and the results were robust in sensitivity analyses.
+
 In addition, the scripts are configured to skip generating output if the corresponding results already exist. To ensure full reproducibility of the analysis workflow, it is recommended to delete the existing result subfolders (typically 10 in total) in the outcomes directory after cloning the Git repository locally. Then, proceed to run each code block in sequence.
 
 Scripts 9. Bayesian-network-meta-analysis.r and 10. Bayesian-network-regression-analysis.r may take approximately 7\~8 hours to complete. It is strongly recommended to run these scripts directly via the R console using the source() function, rather than through R Markdown code chunks, to avoid potential timeouts or execution interruptions.
