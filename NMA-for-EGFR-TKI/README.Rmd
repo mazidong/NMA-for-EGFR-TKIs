@@ -28,8 +28,8 @@ All input data are provided, and every step from data loading to final figure/ta
     -   `8. Network meta-analysis for efficacy analysis.r`: Efficacy analysis of PFS (progression-Free-Survival) data from included RCTs using network meta-analysis.
     -   `9. Bayesian-network-meta-analysis.r`: Bayesian network meta-analysis was performed based on primary and secondary outcomes, and SUCRA values were collected for each therapy to draw heat maps.
     -   `10. Bayesian-network-regression-analysis.r`: Bayesian network meta-regression analyses (regression dependent on continuous and binary variables) were performed on the primary and secondary outcomes, effect values from regression analyses were extracted to construct tables, SUCRA values from binary regression analyses were extracted, heat maps were plotted, and multivariate correlation analyses were performed to compare differences between groups.
-    -   `README.Rmd`: This document.
-    -   `NMA-for-EGFR-TKI.Rproj`: Project management document.
+-   `README.Rmd`: This document.
+-   `NMA-for-EGFR-TKI.Rproj`: Project management document.
 
 ------------------------------------------------------------------------
 
