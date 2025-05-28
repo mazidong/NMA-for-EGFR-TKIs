@@ -81,10 +81,10 @@ vascular_serious_other <- subset(vascular_serious, control == "other EGFR-TKI")
 vascular_total_other <- subset(vascular_total, control == "other EGFR-TKI")
 
 # Paired analysis of the control group screened for chemotherapy based on primary outcome classification.
-cardiac_serious_f <- cardiac_serious[!is.na(cardiac_serious$front_line_chemo) & cardiac_serious$front_line_chemo != "", ]
-vascular_serious_f <- vascular_serious[!is.na(vascular_serious$front_line_chemo) & vascular_serious$front_line_chemo != "", ]
-cardiac_total_f <- cardiac_total[!is.na(cardiac_total$front_line_chemo) & cardiac_total$front_line_chemo != "", ]
-vascular_total_f <- vascular_total[!is.na(vascular_total$front_line_chemo) & vascular_total$front_line_chemo != "", ]
+cardiac_serious_f <- cardiac_serious[!is.na(cardiac_serious$first_line_chemo) & cardiac_serious$first_line_chemo != "", ]
+vascular_serious_f <- vascular_serious[!is.na(vascular_serious$first_line_chemo) & vascular_serious$first_line_chemo != "", ]
+cardiac_total_f <- cardiac_total[!is.na(cardiac_total$first_line_chemo) & cardiac_total$first_line_chemo != "", ]
+vascular_total_f <- vascular_total[!is.na(vascular_total$first_line_chemo) & vascular_total$first_line_chemo != "", ]
 
 cardiac_serious_Chemo <- subset(cardiac_serious_f, control == "Chemotherapy") %>% filter(grepl('1st-generation EGFR TKIs', generation))
 cardiac_total_Chemo <- subset(cardiac_total_f, control == "Chemotherapy") %>% filter(grepl('1st-generation EGFR TKIs', generation))
@@ -325,10 +325,10 @@ vttm1 <- metabin(event.e,n.e,event.c,n.c,data=vt_total_other,sm="OR",studlab=pas
 hytm1 <- metabin(event.e,n.e,event.c,n.c,data=hyper_total_other,sm="OR",studlab=paste(author, year, sep = ","),random=TRUE,robust=TRUE, subgroup = generation)
 
 # Comparison between first-generation EGFR TKI and chemotherapy, according to whether the frontline receives chemotherapy as a subgroup
-csm4 <- metabin(event.e,n.e,event.c,n.c,data=cardiac_serious_Chemo,sm="OR",studlab=paste(author, year, sep = ","), random=TRUE,robust=TRUE, subgroup = front_line)
-vsm4 <- metabin(event.e,n.e,event.c,n.c,data=vascular_serious_Chemo,sm="OR",studlab=paste(author, year, sep = ","), random=TRUE,robust=TRUE, subgroup = front_line)
-ctm4 <- metabin(event.e,n.e,event.c,n.c,data=cardiac_total_Chemo,sm="OR",studlab=paste(author, year, sep = ","), random=TRUE,robust=TRUE, subgroup = front_line)
-vtm4 <- metabin(event.e,n.e,event.c,n.c,data=vascular_total_Chemo,sm="OR",studlab=paste(author, year, sep = ","), random=TRUE,robust=TRUE, subgroup = front_line)
+csm4 <- metabin(event.e,n.e,event.c,n.c,data=cardiac_serious_Chemo,sm="OR",studlab=paste(author, year, sep = ","), random=TRUE,robust=TRUE, subgroup = first_line)
+vsm4 <- metabin(event.e,n.e,event.c,n.c,data=vascular_serious_Chemo,sm="OR",studlab=paste(author, year, sep = ","), random=TRUE,robust=TRUE, subgroup = first_line)
+ctm4 <- metabin(event.e,n.e,event.c,n.c,data=cardiac_total_Chemo,sm="OR",studlab=paste(author, year, sep = ","), random=TRUE,robust=TRUE, subgroup = first_line)
+vtm4 <- metabin(event.e,n.e,event.c,n.c,data=vascular_total_Chemo,sm="OR",studlab=paste(author, year, sep = ","), random=TRUE,robust=TRUE, subgroup = first_line)
 
 
 # forest plots of head-to-head comparisons in pairwise meta-analysis 
