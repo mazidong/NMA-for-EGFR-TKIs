@@ -3,66 +3,31 @@ title: "Treatment-related cardiac and vascular adverse events associated with ep
 author: "Mazidong"
 date: "2025-05-21"
 output: html_document
-editor_options: 
 ---
 
 ## Overview
 
-This study was based on the framework of network meta-analysis to
-investigate treatment-related cardiac and vascular adverse events in
-patients with non-small cell lung cancer treated with related therapies
-such as EGFR inhibitors, in addition to a detailed assessment using
-pairwise meta-analysis, Bayesian framework of network meta-analysis,
-single-group meta-analysis, subgroup analyses, and regression analyses.
+This study was based on the framework of network meta-analysis to investigate treatment-related cardiac and vascular adverse events in patients with non-small cell lung cancer treated with related therapies such as EGFR inhibitors, in addition to a detailed assessment using pairwise meta-analysis, Bayesian framework of network meta-analysis, single-group meta-analysis, subgroup analyses, and regression analyses.
 
-All input data are provided, and every step from data loading to final
-figure/table output is fully documented and executable. This structure
-is designed to meet reproducibility requirements for journal submission.
+All input data are provided, and every step from data loading to final figure/table output is fully documented and executable. This structure is designed to meet reproducibility requirements for journal submission.
 
 ------------------------------------------------------------------------
 
 ## Folder Structure
 
 -   `input/`: Contains all raw input files (e.g., Excel sheets).
--   `outcomes/`: Automatically generated output files (e.g., figures,
-    tables).
+-   `outcomes/`: Automatically generated output files (e.g., figures, tables). 
 -   `scripts/`: All R scripts, modularized by function:
-    -   `1. Network-meta-analysis.r`: Perform network meta-analysis on
-        each sheet and output graphs and tables.
-    -   `2. Forest-plot.r`: Forest plots for comparison of cardiac and
-        vascular adverse drug reactions between EGFR TKIs and placebo.
-    -   `3. Incidence heat map.r`: The incidence heat map of the first
-        to third generation EGFR TKIs based on primary and secondary
-        outcomes.
-    -   `4. Funnel_plot.r`: Generating funnel plots for network
-        meta-analyses of primary outcomes, secondary outcomes and
-        retention of high quality studies.
-    -   `5. Subgroup forest plot.r`: Extraction of summary outcome
-        estimates for head-to-head comparisons in paired meta-analyses,
-        and visualisation for graphs.
-    -   `6. Single group meta-analysis.r`: Extraction of primary outcome
-        and secondary outcome safety data for the EGFR-TKI arm of the
-        RCTs, single arm trials, observational studies, single group
-        meta-analysis, forest plotting.
-    -   `7. Baseline_distribution.r`: Generate baseline (sex, age,
-        proportion of Asian population, proportion of non-smokers,
-        median follow-up duration) distribution of all therapies
-        included in the randomised controlled trial.
-    -   `8. Network meta-analysis for efficacy analysis.r`: Efficacy
-        analysis of PFS (progression-Free-Survival) data from included
-        RCTs using network meta-analysis.
-    -   `9. Bayesian-network-meta-analysis.r`: Bayesian network
-        meta-analysis was performed based on primary and secondary
-        outcomes, and SUCRA values were collected for each therapy to
-        draw heat maps.
-    -   `10. Bayesian-network-regression-analysis.r`: Bayesian network
-        meta-regression analyses (regression dependent on continuous and
-        binary variables) were performed on the primary and secondary
-        outcomes, effect values from regression analyses were extracted
-        to construct tables, SUCRA values from binary regression
-        analyses were extracted, heat maps were plotted, and
-        multivariate correlation analyses were performed to compare
-        differences between groups.
+    -   `1. Network-meta-analysis.r`: Perform network meta-analysis on each sheet and output graphs and tables.
+    -   `2. Forest-plot.r`: Forest plots for comparison of cardiac and vascular adverse drug reactions between EGFR TKIs and placebo.
+    -   `3. Incidence heat map.r`: The incidence heat map of the first to third generation EGFR TKIs based on primary and secondary outcomes.
+    -   `4. Funnel_plot.r`: Generating funnel plots for network meta-analyses of primary outcomes, secondary outcomes and retention of high quality studies.
+    -   `5. Subgroup forest plot.r`: Extraction of summary outcome estimates for head-to-head comparisons in paired meta-analyses, and visualisation for graphs.
+    -   `6. Single group meta-analysis.r`: Extraction of primary outcome and secondary outcome safety data for the EGFR-TKI arm of the RCTs, single arm trials, observational studies, single group meta-analysis, forest plotting.
+    -   `7. Baseline_distribution.r`: Generate baseline (sex, age, proportion of Asian population, proportion of non-smokers, median follow-up duration) distribution of all therapies included in the randomised controlled trial.
+    -   `8. Network meta-analysis for efficacy analysis.r`: Efficacy analysis of PFS (progression-Free-Survival) data from included RCTs using network meta-analysis.
+    -   `9. Bayesian-network-meta-analysis.r`: Bayesian network meta-analysis was performed based on primary and secondary outcomes, and SUCRA values were collected for each therapy to draw heat maps.
+    -   `10. Bayesian-network-regression-analysis.r`: Bayesian network meta-regression analyses (regression dependent on continuous and binary variables) were performed on the primary and secondary outcomes, effect values from regression analyses were extracted to construct tables, SUCRA values from binary regression analyses were extracted, heat maps were plotted, and multivariate correlation analyses were performed to compare differences between groups.
 -   `README.Rmd`: This document.
 -   `NMA-for-EGFR-TKI.Rproj`: Project management document.
 
@@ -70,88 +35,46 @@ is designed to meet reproducibility requirements for journal submission.
 
 ## Environment: R 4.5.0 on Windows 11
 
-Session information: R version 4.5.0 (2025-04-11 ucrt) Platform:
-x86_64-w64-mingw32/x64 Running under: Windows 11 x64 (build 22631)
+R version 4.5.0 (2025-04-11 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 22631)
 
-Matrix products: default LAPACK version 3.12.1
+Matrix products: default
+  LAPACK version 3.12.1
 
-locale: [1] LC_COLLATE=Chinese (Simplified)\_China.utf8 LC_CTYPE=Chinese
-(Simplified)\_China.utf8 LC_MONETARY=Chinese (Simplified)\_China.utf8
-[4] LC_NUMERIC=C LC_TIME=Chinese (Simplified)\_China.utf8
+locale:
+[1] LC_COLLATE=Chinese (Simplified)_China.utf8  LC_CTYPE=Chinese (Simplified)_China.utf8    LC_MONETARY=Chinese (Simplified)_China.utf8
+[4] LC_NUMERIC=C                                LC_TIME=Chinese (Simplified)_China.utf8    
 
-time zone: Asia/Shanghai tzcode source: internal
+time zone: Asia/Shanghai
+tzcode source: internal
 
-attached base packages: [1] stats graphics grDevices utils datasets
-methods base
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
 
-loaded via a namespace (and not attached): [1] compiler_4.5.0
-fastmap_1.2.0 cli_3.6.5 htmltools_0.5.8.1 tools_4.5.0 rstudioapi_0.17.1
-yaml_2.3.10 rmarkdown_2.29\
-[9] knitr_1.50 xfun_0.52 digest_0.6.37 rlang_1.1.6 evaluate_1.0.3
+loaded via a namespace (and not attached):
+ [1] compiler_4.5.0    fastmap_1.2.0     cli_3.6.5         htmltools_0.5.8.1 tools_4.5.0       rstudioapi_0.17.1 yaml_2.3.10       rmarkdown_2.29   
+ [9] knitr_1.50        xfun_0.52         digest_0.6.37     rlang_1.1.6       evaluate_1.0.3
 
 ------------------------------------------------------------------------
 
 ## Notes before reproducing the analysis:
 
-To ensure code portability, it is recommended to first open the .Rproj
-file after cloning the repository. This helps set the correct working
-directory automatically, ensuring that relative paths used in the
-project function as expected.
+To ensure code portability, it is recommended to first open the .Rproj file after cloning the repository. This helps set the correct working directory automatically, ensuring that relative paths used in the project function as expected.
 
-If an error message stating 'cannot open URL
-<http://bioconductor.org/config.yaml>' appears when installing a
-dependency package, this is due to a network problem preventing you from
-linking to the Bioconductor website. Depending on the network problem,
-you can install the Bioconductor package by switching to a different
-Bioconductor mirror (<https://bioconductor.org/about/mirrors/>), for
-example by adding the following statement to the end of the text or
-typing it into the R/RStudio terminal:
-'options(BioC_mirror="<https://mirrors.tuna.tsinghua.edu.cn/bioconductor>")'.
-You can then use this Bioconductor mirror to install the package.
+If an error message stating 'cannot open URL <http://bioconductor.org/config.yaml>' appears when installing a dependency package, this is due to a network problem preventing you from linking to the Bioconductor website. Depending on the network problem, you can install the Bioconductor package by switching to a different Bioconductor mirror (<https://bioconductor.org/about/mirrors/>), for example by adding the following statement to the end of the text or typing it into the R/RStudio terminal: 'options(BioC_mirror="<https://mirrors.tuna.tsinghua.edu.cn/bioconductor>")'. You can then use this Bioconductor mirror to install the package.
 
-Some warnings encountered during script execution are related to recent
-R package updates. For example, the message "Use argument 'col.subgroup'
-instead of 'col.by' (deprecated)" likely originates from internal calls
-within a package function and can be safely ignored.
+Some warnings encountered during script execution are related to recent R package updates. For example, the message "Use argument 'col.subgroup' instead of 'col.by' (deprecated)" likely originates from internal calls within a package function and can be safely ignored.
 
-The warning message "Warning in forest.netsplit(...): No comparison(s)
-selected. Consider using argument 'show = "all"'", appears because
-certain comparisons in the network meta-analysis of control groups
-(e.g., antiangiogenesis, IGF-1R inhibitor or MET inhibitor) include too
-few studies to allow a valid node-splitting analysis. As a result, the
-forest plot for inconsistency cannot be generated for these comparisons.
-However, this limitation does not affect the overall results of the
-network meta-analysis.
+The warning message "Warning in forest.netsplit(...): No comparison(s) selected. Consider using argument 'show = "all"'", appears because certain comparisons in the network meta-analysis of control groups (e.g., antiangiogenesis, IGF-1R inhibitor or MET inhibitor) include too few studies to allow a valid node-splitting analysis. As a result, the forest plot for inconsistency cannot be generated for these comparisons. However, this limitation does not affect the overall results of the network meta-analysis.
 
-During the Bayesian network meta-analysis, occasional warnings of the
-form "In sqrt(var) : NaNs produced" may appear when the estimated
-variance for a given comparison is effectively zero. This numerical
-artifact arises from Monte Carlo sampling of extremely sparse data and
-does not indicate a modeling failure or invalid results. The underlying
-posterior distributions remain well-defined, and all key convergence
-diagnostics (e.g., effective sample size) confirm proper mixing.
-Therefore, these "NaN" messages can be safely ignored without affecting
-the validity or interpretation of the analysis.
+During the Bayesian network meta-analysis, occasional warnings of the form "In sqrt(var) : NaNs produced" may appear when the estimated variance for a given comparison is effectively zero. This numerical artifact arises from Monte Carlo sampling of extremely sparse data and does not indicate a modeling failure or invalid results. The underlying posterior distributions remain well-defined, and all key convergence diagnostics (e.g., effective sample size) confirm proper mixing. Therefore, these "NaN" messages can be safely ignored without affecting the validity or interpretation of the analysis.
 
-During execution of Bayesian network meta-regression analyses, you may
-see a warning such as "In system('timedatectl', intern = TRUE) : running
-command 'timedatectl' had status 1." This simply indicates that the
-system utility for querying the time zone was not found and has no
-impact on any downstream analyses.
+During execution of Bayesian network meta-regression analyses, you may see a warning such as "In system('timedatectl', intern = TRUE) : running command 'timedatectl' had status 1." This simply indicates that the system utility for querying the time zone was not found and has no impact on any downstream analyses.
 
-In addition, the scripts are configured to skip generating output if the
-corresponding results already exist. To ensure full reproducibility of
-the analysis workflow, it is recommended to delete the existing result
-subfolders (typically 10 in total) in the outcomes directory after
-cloning the Git repository locally. Then, proceed to run each code block
-in sequence.
+In addition, the scripts are configured to skip generating output if the corresponding results already exist. To ensure full reproducibility of the analysis workflow, it is recommended to delete the existing result subfolders (typically 10 in total) in the outcomes directory after cloning the Git repository locally. Then, proceed to run each code block in sequence.
 
-Scripts 9. Bayesian-network-meta-analysis.r and 10.
-Bayesian-network-regression-analysis.r may take approximately 7\~8 hours
-to complete. It is strongly recommended to run these scripts directly
-via the R console using the source() function, rather than through R
-Markdown code chunks, to avoid potential timeouts or execution
-interruptions.
+Scripts 9. Bayesian-network-meta-analysis.r and 10. Bayesian-network-regression-analysis.r may take approximately 7\~8 hours to complete. It is strongly recommended to run these scripts directly via the R console using the source() function, rather than through R Markdown code chunks, to avoid potential timeouts or execution interruptions.
 
 ------------------------------------------------------------------------
 
@@ -209,8 +132,7 @@ invisible(lapply(bioc_pkgs, install_bioc_if_missing))
 The rjags package requires that you have the JAGS library installed on
 your system. Install it from:
 
--   **Windows**: Download installer from [JAGS official
-    site](https://sourceforge.net/projects/mcmc-jags/files/)
+-   **Windows**: Download installer from [JAGS official site](https://sourceforge.net/projects/mcmc-jags/files/)
 -   **macOS**: brew install jags
 -   **Linux**: sudo apt-get install jags 
 
@@ -283,9 +205,4 @@ source(here("scripts", "10. Bayesian-network-regression-analysis.r"))
 
 ## Notes
 
-Upon publication, the repository will be assigned a license and DOI for
-public use. For further details on the full datasets, please contact the
-corresponding authors, Professor Xiaohong Kang
-([1fy2014036\@xxmu.edu.cn](mailto:1fy2014036@xxmu.edu.cn){.email}) and
-Professor Sizhi Ai
-([ai_sz\@xxmu.edu.cn](mailto:ai_sz@xxmu.edu.cn){.email}).
+Upon publication, the repository will be assigned a license and DOI for public use. For further details on the full datasets, please contact the corresponding authors, Professor Xiaohong Kang (1fy2014036@xxmu.edu.cn) and Professor Sizhi Ai (ai_sz@xxmu.edu.cn).
