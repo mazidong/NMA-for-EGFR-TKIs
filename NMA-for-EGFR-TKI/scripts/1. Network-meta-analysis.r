@@ -309,7 +309,7 @@ run_network_analysis <- function(excel_path, sheet_names, input_settings, main_o
   forest_file <- file.path(out_dir, paste0(sheet, "_forest.pdf"))
   skip_if_exists(forest_file, function() {
     pdf(forest_file, width = 9, height = 10)
-    forest(net,
+    meta::forest(net,
            reference.group = "Placebo",
            smlab = paste0(sheet, " Adverse Drug Reactions\n(Comparison: other vs Placebo)"),
            drop.reference.group = TRUE,
@@ -325,7 +325,7 @@ run_network_analysis <- function(excel_path, sheet_names, input_settings, main_o
   forest_file1 <- file.path(out_dir, paste0(sheet, "_forest-1.pdf"))
   skip_if_exists(forest_file1, function() {
     pdf(forest_file1, width = 12, height = 10)
-    forest(net,
+    meta::forest(net,
            reference.group = "Placebo",
            smlab = paste0(sheet, " Adverse Drug Reactions\n(Comparison: other vs Placebo)"),
            drop.reference.group = TRUE,
