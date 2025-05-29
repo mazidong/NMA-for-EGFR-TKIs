@@ -62,9 +62,9 @@ loaded via a namespace (and not attached):
 
 To ensure code portability, it is recommended to first open the .Rproj file after cloning the repository. This helps set the correct working directory automatically, ensuring that relative paths used in the project function as expected.
 
-If you encounter an error such as "status was 'SSL connect error'" when installing R packages due to network issues, you can resolve it by setting a reliable CRAN mirror. Add the following line at the end of your script or enter it directly into the R/RStudio console: "options(repos = c(CRAN = "https://cran.rstudio.com"))", Then, retry the package installation command.
+If you encounter an error such as "status was 'SSL connect error'" when installing R packages due to network issues, you can resolve it by setting a reliable CRAN mirror. Add the following line at the end of the text or enter it directly into the R/RStudio console: "options(repos = c(CRAN = "https://cran.rstudio.com"))", Then, retry the package installation command.
 
-If an error message stating 'cannot open URL <http://bioconductor.org/config.yaml>' appears when installing a dependency package, this is due to a network problem preventing you from linking to the Bioconductor website. Depending on the network problem, you can install the Bioconductor package by switching to a different Bioconductor mirror (<https://bioconductor.org/about/mirrors/>), for example by adding the following statement to the end of the text or typing it into the R/RStudio terminal: 'options(BioC_mirror="<https://mirrors.tuna.tsinghua.edu.cn/bioconductor>")'. You can then use this Bioconductor mirror to install the package.
+If an error message stating 'cannot open URL http://bioconductor.org/config.yaml' appears when installing a dependency package, this is due to a network problem preventing you from linking to the Bioconductor website. Depending on the network problem, you can install the Bioconductor package by switching to a different Bioconductor mirror (https://bioconductor.org/about/mirrors/), for example by adding the following statement to the end of the text or typing it directly into the R/RStudio console: 'options(BioC_mirror="https://mirrors.tuna.tsinghua.edu.cn/bioconductor")'. You can then use this Bioconductor mirror to install the package.
 
 Some warnings encountered during script execution are related to recent R package updates. For example, the message "Use argument 'col.subgroup' instead of 'col.by' (deprecated)" likely originates from internal calls within a package function and can be safely ignored.
 
@@ -78,7 +78,7 @@ In scripts 9. bayesian-network-meta-analysis.r, if the following error appears d
 
 In addition, the scripts are configured to skip generating output if the corresponding results already exist. To ensure full reproducibility of the analysis workflow, it is recommended to delete the existing result subfolders (typically 10 in total) in the outcomes directory after cloning the Git repository locally. Then, proceed to run each code block in sequence.
 
-Scripts 9. Bayesian-network-meta-analysis.r and 10. Bayesian-network-regression-analysis.r may take approximately 7\~8 hours to complete. It is strongly recommended to run these scripts directly via the R console using the source() function, rather than through R Markdown code chunks, to avoid potential timeouts or execution interruptions.
+Scripts 9. Bayesian-network-meta-analysis.r and 10. Bayesian-network-regression-analysis.r may take approximately 7~8 hours to complete. It is strongly recommended to run these scripts directly via the R console using the source() function, rather than through R Markdown code chunks, to avoid potential timeouts or execution interruptions.
 
 ------------------------------------------------------------------------
 
