@@ -195,11 +195,9 @@ run_network_analysis <- function(excel_path, sheet_names, input_settings, main_o
       pw <- pairwise(treat = alloc1, n = sampleSize, event = responders,
                      studlab = study, data = df, sm = "OR", incr = 0.5, allincr = TRUE, addincr = TRUE)
       net <- netmeta(pw, ref = "Placebo", common = FALSE)
-      print(pw)
     } else if (method == "inverse") {
       pw <- pairwise(treat = alloc1, n = sampleSize, event = responders, 
                       incr = 0.5, allincr = TRUE, addincr = TRUE, allstudies = TRUE, studlab = study, data = df, sm = "OR")
-      print(pw)
       net <- netmetabin(pw, ref = "Placebo", method = "Inverse", details.chkmultiarm = FALSE)
     }
 

@@ -1,27 +1,27 @@
-Number of studies: k = 10
-Number of pairwise comparisons: m = 10
-Number of observations: o = 5821
+Number of studies: k = 11
+Number of pairwise comparisons: m = 11
+Number of observations: o = 6858
 Number of treatments: n = 8
 Number of designs: d = 7
 
 Random effects model
 
 Treatment estimate (sm = 'OR', comparison: other treatments vs 'Placebo'):
-                            OR            95%-CI     z p-value
-Afatinib                2.2703 [0.7026;  7.3358]  1.37  0.1706
-Dacomitinib             0.4052 [0.1154;  1.4223] -1.41  0.1585
-Erlotinib               1.3815 [0.6510;  2.9314]  0.84  0.3999
-Erlotinib + Onartuzumab 1.0635 [0.3106;  3.6414]  0.10  0.9219
-Erlotinib + Tivantinib  1.3649 [0.1233; 15.1101]  0.25  0.7998
-Gefitinib               0.9755 [0.2952;  3.2234] -0.04  0.9675
-Osimertinib             2.6455 [1.5294;  4.5760]  3.48  0.0005
-Placebo                      .                 .     .       .
+                            OR           95%-CI     z p-value
+Afatinib                2.2703 [0.7026; 7.3358]  1.37  0.1706
+Dacomitinib             0.4052 [0.1154; 1.4223] -1.41  0.1585
+Erlotinib               1.3815 [0.6510; 2.9314]  0.84  0.3999
+Erlotinib + Onartuzumab 1.0635 [0.3106; 3.6414]  0.10  0.9219
+Erlotinib + Tivantinib  1.3724 [0.4745; 3.9694]  0.58  0.5591
+Gefitinib               0.9755 [0.2952; 3.2234] -0.04  0.9675
+Osimertinib             2.6455 [1.5294; 4.5760]  3.48  0.0005
+Placebo                      .                .     .       .
 
 Quantifying heterogeneity / inconsistency:
-tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 84.7%]
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 79.2%]
 
 Tests of heterogeneity (within designs) and inconsistency (between designs):
                    Q d.f. p-value
-Total           1.34    3  0.7194
-Within designs  1.34    3  0.7194
+Total           1.34    4  0.8544
+Within designs  1.34    4  0.8544
 Between designs 0.00    0      --
