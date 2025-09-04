@@ -5,9 +5,12 @@ date: "2025-05-21"
 output: html_document
 ---
 
-##Reference
+## Reference
+
 This repository accompanies the following publication:
 Ma, Zidong et al. “Cardiovascular adverse events associated with epidermal growth factor receptor tyrosine kinase inhibitors in EGFR-mutated non-small cell lung cancer: systematic review and network meta-analysis.” BMJ (Clinical research ed.) vol. 390 e082834. 2 Sep. 2025, doi:10.1136/bmj-2024-082834
+        
+        
 ------------------------------------------------------------------------
 
 ## Overview
@@ -26,11 +29,11 @@ All input data are provided, and every step from data loading to final figure/ta
     -   `1. Network-meta-analysis.r`: Perform network meta-analysis on each sheet and output graphs and tables.
     -   `2. Forest-plot.r`: Forest plots for comparison of cardiac and vascular adverse drug reactions between EGFR TKIs and placebo.
     -   `3. Incidence heat map.r`: The incidence heat map of the first to third generation EGFR TKIs based on primary and secondary outcomes.
-    -   `4. Funnel_plot.r`: Generating funnel plots for network meta-analyses of primary outcomes, secondary outcomes and retention of high quality studies.
+    -   `4. Funnel_plot.r`: Generating funnel plots for network meta-analyses of primary outcomes, secondary outcomes, and retention of high-quality studies.
     -   `5. Subgroup forest plot.r`: Extraction of summary outcome estimates for head-to-head comparisons in paired meta-analyses, and visualisation for graphs.
-    -   `6. Single group meta-analysis.r`: Extraction of primary outcome and secondary outcome safety data for the EGFR-TKI arm of the RCTs, single arm trials, observational studies, single group meta-analysis, forest plotting.
+    -   `6. Single group meta-analysis.r`: Extraction of primary outcome and secondary outcome safety data for the EGFR-TKI arm of the RCTs, single-arm trials, observational studies, single-group meta-analysis, and forest plotting.
     -   `7. Baseline_distribution.r`: Generate baseline (sex, age, proportion of Asian population, proportion of non-smokers, median follow-up duration) distribution of all therapies included in the randomised controlled trial.
-    -   `8. Network meta-analysis for efficacy analysis.r`: Efficacy analysis of PFS (progression-Free-Survival) data from included RCTs using network meta-analysis.
+    -   `8. Network meta-analysis for efficacy analysis.r`: Efficacy analysis of PFS (progression-free survival) data from included RCTs using network meta-analysis.
     -   `9. Bayesian-network-meta-analysis.r`: Bayesian network meta-analysis was performed based on primary and secondary outcomes, and SUCRA values were collected for each therapy to draw heat maps.
     -   `10. Bayesian-network-regression-analysis.r`: Bayesian network meta-regression analyses (regression dependent on continuous and binary variables) were performed on the primary and secondary outcomes, effect values from regression analyses were extracted to construct tables, SUCRA values from binary regression analyses were extracted, heat maps were plotted, and multivariate correlation analyses were performed to compare differences between groups.
 -   `README.Rmd`: This document.
@@ -69,17 +72,17 @@ To ensure code portability, it is recommended to first open the .Rproj file afte
 
 If you encounter an error such as "status was 'SSL connect error'" when installing R packages due to network issues, you can resolve it by setting a reliable CRAN mirror. Add the following line at the end of the text or enter it directly into the R/RStudio console: "options(repos = c(CRAN = "https://cran.rstudio.com"))", Then, retry the package installation command.
 
-If an error message stating 'cannot open URL http://bioconductor.org/config.yaml' appears when installing a dependency package, this is due to a network problem preventing you from linking to the Bioconductor website. Depending on the network problem, you can install the Bioconductor package by switching to a different Bioconductor mirror (https://bioconductor.org/about/mirrors/), for example by adding the following statement to the end of the text or typing it directly into the R/RStudio console: 'options(BioC_mirror="https://mirrors.tuna.tsinghua.edu.cn/bioconductor")'. You can then use this Bioconductor mirror to install the package.
+If an error message stating 'cannot open URL http://bioconductor.org/config.yaml' appears when installing a dependency package, this is due to a network problem preventing you from linking to the Bioconductor website. Depending on the network problem, you can install the Bioconductor package by switching to a different Bioconductor mirror (https://bioconductor.org/about/mirrors/), for example, by adding the following statement to the end of the text or typing it directly into the R/RStudio console: 'options(BioC_mirror="https://mirrors.tuna.tsinghua.edu.cn/bioconductor")'. You can then use this Bioconductor mirror to install the package.
 
 Some warnings encountered during script execution are related to recent R package updates. For example, the message "Use argument 'col.subgroup' instead of 'col.by' (deprecated)" likely originates from internal calls within a package function and can be safely ignored.
 
-The warning message "Warning in forest.netsplit(...): No comparison(s) selected. Consider using argument 'show = "all"'", appears because certain comparisons in the network meta-analysis of control groups (e.g., antiangiogenesis, IGF-1R inhibitor or MET inhibitor) include too few studies to allow a valid node-splitting analysis. As a result, the forest plot for inconsistency cannot be generated for these comparisons. However, this limitation does not affect the overall results of the network meta-analysis.
+The warning message "Warning in forest.netsplit(...): No comparison(s) selected. Consider using argument 'show = "all"'", appears because certain comparisons in the network meta-analysis of control groups (e.g., antiangiogenesis, IGF-1R inhibitor, or MET inhibitor) include too few studies to allow a valid node-splitting analysis. As a result, the forest plot for inconsistency cannot be generated for these comparisons. However, this limitation does not affect the overall results of the network meta-analysis.
 
 During the Bayesian network meta-analysis, occasional warnings of the form "In sqrt(var) : NaNs produced" may appear when the estimated variance for a given comparison is effectively zero. This numerical artifact arises from Monte Carlo sampling of extremely sparse data and does not indicate a modeling failure or invalid results. The underlying posterior distributions remain well-defined, and all key convergence diagnostics (e.g., effective sample size) confirm proper mixing. Therefore, these "NaN" messages can be safely ignored without affecting the validity or interpretation of the analysis.
 
-During execution of Bayesian network meta-regression analyses, you may see a warning such as "In system('timedatectl', intern = TRUE) : running command 'timedatectl' had status 1." This simply indicates that the system utility for querying the time zone was not found and has no impact on any downstream analyses.
+During execution of Bayesian network meta-regression analyses, you may see a warning such as "In system('timedatectl', intern = TRUE): running command 'timedatectl' had status 1." This simply indicates that the system utility for querying the time zone was not found and has no impact on any downstream analyses.
 
-In scripts 9. bayesian-network-meta-analysis.r, if the following error appears during runtime: "Error occurred in sheet Serious Vascular: Decomposed variance ill-defined for 37. Most likely the USE did not converge", it is likely due to Study 37 being a three-arm trial, in which one treatment arm reported zero events. This likely caused instability in estimating the variance-covariance matrix, leading to the "Decomposed variance ill-defined" warning. Statistically, such warnings are expected in sparse data scenarios. The model still converged successfully, and the results were robust in sensitivity analyses.
+In scripts 9. bayesian-network-meta-analysis.r, If the following error appears during runtime: "Error occurred in sheet Serious Vascular: Decomposed variance ill-defined for 37. Most likely the USE did not converge", it is likely due to Study 37 being a three-arm trial, in which one treatment arm reported zero events. This likely caused instability in estimating the variance-covariance matrix, leading to the "Decomposed variance ill-defined" warning. Statistically, such warnings are expected in sparse data scenarios. The model still converged successfully, and the results were robust in sensitivity analyses.
 
 In addition, the scripts are configured to skip generating output if the corresponding results already exist. To ensure full reproducibility of the analysis workflow, it is recommended to delete the existing result subfolders (typically 10 in total) in the outcomes directory after cloning the Git repository locally. Then, proceed to run each code block in sequence.
 
@@ -214,13 +217,13 @@ source(here("scripts", "10. Bayesian-network-regression-analysis.r"))
 
 ## Data Availability
 
-Upon publication, , this repository has been assigned a license and DOI for public use. For further details on the full datasets, please contact the corresponding authors, Professor Xiaohong Kang (1fy2014036@xxmu.edu.cn) and Professor Sizhi Ai (ai_sz@xxmu.edu.cn).
+Upon publication,  this repository has been assigned a license and a DOI for public use. For further details on the full datasets, please contact the corresponding authors, Professor Xiaohong Kang (1fy2014036@xxmu.edu.cn) and Professor Sizhi Ai (ai_sz@xxmu.edu.cn).
 
-##License
+## License
 
 This repository follows the BMJ Publishing / CC BY-NC license associated with the article. Please see the journal’s licensing terms for details.
 
-##Citation
+## Citation
 
 If you use the code or materials in this repository, please cite our article as follows:
 Ma, Zidong et al. “Cardiovascular adverse events associated with epidermal growth factor receptor tyrosine kinase inhibitors in EGFR-mutated non-small cell lung cancer: systematic review and network meta-analysis.” BMJ (Clinical research ed.) vol. 390 e082834. 2 Sep. 2025, doi:10.1136/bmj-2024-082834
