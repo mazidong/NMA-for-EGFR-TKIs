@@ -1,9 +1,14 @@
 ---
-title: "Treatment-related cardiac and vascular adverse events associated with epidermal growth factor receptor tyrosine kinase inhibitor-based therapies in EGFR-mutated non-small-cell lung cancer: systematic review and network meta-analysis"
+title: "Cardiovascular adverse events associated with epidermal growth factor receptor tyrosine kinase inhibitors in EGFR-mutated non-small cell lung cancer: systematic review and network meta-analysis"
 author: "Mazidong"
 date: "2025-05-21"
 output: html_document
 ---
+
+##Reference
+This repository accompanies the following publication:
+Ma, Zidong et al. “Cardiovascular adverse events associated with epidermal growth factor receptor tyrosine kinase inhibitors in EGFR-mutated non-small cell lung cancer: systematic review and network meta-analysis.” BMJ (Clinical research ed.) vol. 390 e082834. 2 Sep. 2025, doi:10.1136/bmj-2024-082834
+------------------------------------------------------------------------
 
 ## Overview
 
@@ -207,6 +212,15 @@ source(here("scripts", "10. Bayesian-network-regression-analysis.r"))
 
 ------------------------------------------------------------------------
 
-## Notes
+## Data Availability
 
-Upon publication, the repository will be assigned a license and DOI for public use. For further details on the full datasets, please contact the corresponding authors, Professor Xiaohong Kang (1fy2014036@xxmu.edu.cn) and Professor Sizhi Ai (ai_sz@xxmu.edu.cn).
+Upon publication, , this repository has been assigned a license and DOI for public use. For further details on the full datasets, please contact the corresponding authors, Professor Xiaohong Kang (1fy2014036@xxmu.edu.cn) and Professor Sizhi Ai (ai_sz@xxmu.edu.cn).
+
+##License
+
+This repository follows the BMJ Publishing / CC BY-NC license associated with the article. Please see the journal’s licensing terms for details.
+
+##Citation
+
+If you use the code or materials in this repository, please cite our article as follows:
+Ma, Zidong et al. “Cardiovascular adverse events associated with epidermal growth factor receptor tyrosine kinase inhibitors in EGFR-mutated non-small cell lung cancer: systematic review and network meta-analysis.” BMJ (Clinical research ed.) vol. 390 e082834. 2 Sep. 2025, doi:10.1136/bmj-2024-082834
